@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Nanny-AI | Free AI Readiness Assessment for Your Business</title>
+    <meta name="description" content="Schedule your free 30-minute AI readiness assessment. Get a custom roadmap for AI implementation tailored to your business needs.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Nanny-AI</h2>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="industries.html" class="nav-link">Industries</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="resources.html" class="nav-link">Resources</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+                <a href="contact.html" class="nav-cta-btn">Free Assessment</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Get Your Free AI Readiness Assessment</h1>
+            <p>Discover your AI opportunities with a personalized 30-minute consultation</p>
+        </div>
+    </section>
+
+    <!-- Main Contact Section -->
+    <section class="contact-main">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Assessment Form -->
+                <div class="contact-form-section">
+                    <div class="form-header">
+                        <h2>Schedule Your Free Assessment</h2>
+                        <p>Tell us about your business and we'll provide a custom AI readiness assessment and implementation roadmap.</p>
+                        
+                        <div class="assessment-benefits">
+                            <div class="benefit-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>30-minute consultation with AI expert</span>
+                            </div>
+                            <div class="benefit-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Custom AI opportunity analysis</span>
+                            </div>
+                            <div class="benefit-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Personalized implementation roadmap</span>
+                            </div>
+                            <div class="benefit-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>ROI projections and timeline</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="company-name">Company Name *</label>
+                                <input type="text" id="company-name" name="company_name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-name">Your Name *</label>
+                                <input type="text" id="contact-name" name="contact_name" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="industry">Industry *</label>
+                            <select id="industry" name="industry" required>
+                                <option value="">Select your industry</option>
+                                <option value="professional-services">Professional Services (Legal, Accounting, Consulting)</option>
+                                <option value="healthcare">Healthcare (Clinics, Dental, Medical Practices)</option>
+                                <option value="manufacturing">Manufacturing & Distribution</option>
+                                <option value="retail">Retail & E-commerce</option>
+                                <option value="food-service">Food Service & Hospitality</option>
+                                <option value="real-estate">Real Estate</option>
+                                <option value="financial-services">Financial Services</option>
+                                <option value="construction">Construction</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company-size">Company Size *</label>
+                            <select id="company-size" name="company_size" required>
+                                <option value="">Select company size</option>
+                                <option value="1-5">1-5 employees</option>
+                                <option value="6-20">6-20 employees</option>
+                                <option value="21-50">21-50 employees</option>
+                                <option value="51-100">51-100 employees</option>
+                                <option value="100+">100+ employees</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="main-challenge">What's your main business challenge? *</label>
+                            <textarea id="main-challenge" name="main_challenge" rows="4" placeholder="e.g., We spend too much time on manual data entry and want to automate repetitive tasks to focus on higher-value work..." required></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="ai-experience">Current AI Experience</label>
+                            <select id="ai-experience" name="ai_experience">
+                                <option value="">Select your experience level</option>
+                                <option value="none">No AI experience</option>
+                                <option value="research">Researching AI options</option>
+                                <option value="basic">Using basic AI tools</option>
+                                <option value="some-implementation">Some AI implementation</option>
+                                <option value="advanced">Advanced AI user</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="timeline">When are you looking to implement AI?</label>
+                            <select id="timeline" name="timeline">
+                                <option value="">Select timeline</option>
+                                <option value="immediately">Immediately (within 1 month)</option>
+                                <option value="3-months">Within 3 months</option>
+                                <option value="6-months">Within 6 months</option>
+                                <option value="planning">Just planning for the future</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">Subscribe to our newsletter for AI tips and industry insights</label>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Get My Free Assessment</button>
+
+                        <div class="form-guarantee">
+                            <p><i class="fas fa-shield-alt"></i> <strong>Privacy Guaranteed:</strong> Your information is secure and will never be shared. No spam, no pressure sales calls.</p>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info-section">
+                    <div class="contact-info-card">
+                        <h3>Other Ways to Reach Us</h3>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p>(555) 123-4567</p>
+                                <span>Monday - Friday, 9 AM - 6 PM EST</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>hello@nanny-ai.com</p>
+                                <span>We typically respond within 2 hours</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Office</h4>
+                                <p>123 Business District<br>Your City, State 12345</p>
+                                <span>By appointment only</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>LinkedIn</h4>
+                                <p>Connect with us professionally</p>
+                                <a href="#" class="contact-link">@Nanny-AI</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Preview -->
+                    <div class="faq-preview">
+                        <h3>Frequently Asked Questions</h3>
+                        
+                        <div class="faq-item">
+                            <h4>Is the assessment really free?</h4>
+                            <p>Yes, absolutely! Our 30-minute AI readiness assessment is completely free with no obligations. You'll receive valuable insights regardless of whether you choose to work with us.</p>
+                        </div>
+
+                        <div class="faq-item">
+                            <h4>What happens during the assessment?</h4>
+                            <p>We'll discuss your current processes, identify AI opportunities, and provide initial recommendations. You'll leave with a clear understanding of how AI could benefit your specific business.</p>
+                        </div>
+
+                        <div class="faq-item">
+                            <h4>Do you work with very small businesses?</h4>
+                            <p>Absolutely! We specialize in small and mid-sized businesses. Many of our clients started with just 2-5 employees and have grown significantly with AI support.</p>
+                        </div>
+
+                        <div class="faq-item">
+                            <h4>What if I don't know anything about AI?</h4>
+                            <p>Perfect! That's exactly who we're here to help. We explain everything in plain English and never assume technical knowledge.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Indicators -->
+    <section class="trust-indicators">
+        <div class="container">
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>Privacy Protected</h4>
+                    <p>Your business information is completely confidential and secure</p>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-handshake"></i>
+                    <h4>No Pressure</h4>
+                    <p>We believe in education first - no high-pressure sales tactics</p>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-clock"></i>
+                    <h4>Quick Response</h4>
+                    <p>We typically respond to inquiries within 2 hours during business days</p>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-award"></i>
+                    <h4>Proven Results</h4>
+                    <p>95% client satisfaction rate with measurable ROI improvements</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Nanny-AI</h3>
+                    <p>Guiding businesses safely into the AI future with practical, tailored solutions.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">AI Readiness Assessment</a></li>
+                        <li><a href="services.html">Implementation Support</a></li>
+                        <li><a href="services.html">Strategy Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Industries</h4>
+                    <ul>
+                        <li><a href="industries.html">Professional Services</a></li>
+                        <li><a href="industries.html">Healthcare</a></li>
+                        <li><a href="industries.html">Manufacturing</a></li>
+                        <li><a href="industries.html">Retail</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> hello@nanny-ai.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Business District, Your City</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Nanny-AI. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Enhanced mobile menu functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('.nav-menu');
+            const navLinks = document.querySelectorAll('.nav-link');
+            const body = document.body;
+
+            // Check if elements exist
+            if (!hamburger || !navMenu) {
+                console.error('Mobile navigation elements not found');
+                return;
+            }
+
+            // Toggle mobile menu
+            hamburger.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                
+                const isActive = hamburger.classList.contains('active');
+                
+                if (isActive) {
+                    closeMobileMenu();
+                } else {
+                    openMobileMenu();
+                }
+            });
+
+            // Close mobile menu when clicking on a navigation link
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    closeMobileMenu();
+                });
+            });
+
+            // Close mobile menu when clicking outside
+            document.addEventListener('click', function(e) {
+                const isMenuActive = navMenu.classList.contains('active');
+                const isClickInsideNav = navMenu.contains(e.target) || hamburger.contains(e.target);
+                
+                if (isMenuActive && !isClickInsideNav) {
+                    closeMobileMenu();
+                }
+            });
+
+            // Close mobile menu on escape key
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape' && navMenu.classList.contains('active')) {
+                    closeMobileMenu();
+                }
+            });
+
+            // Handle window resize
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768 && navMenu.classList.contains('active')) {
+                    closeMobileMenu();
+                }
+            });
+
+            function openMobileMenu() {
+                hamburger.classList.add('active');
+                navMenu.classList.add('active');
+                body.style.overflow = 'hidden'; // Prevent scrolling when menu is open
+                hamburger.setAttribute('aria-expanded', 'true');
+            }
+
+            function closeMobileMenu() {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+                body.style.overflow = ''; // Restore scrolling
+                hamburger.setAttribute('aria-expanded', 'false');
+            }
+
+            // Set initial aria attributes
+            hamburger.setAttribute('aria-expanded', 'false');
+            hamburger.setAttribute('aria-label', 'Toggle navigation menu');
+        });
+
+        // Enhanced form handling with mailto and validation
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const companyName = formData.get('company_name');
+            const contactName = formData.get('contact_name');
+            const email = formData.get('email');
+            const phone = formData.get('phone') || 'Not provided';
+            const industry = formData.get('industry');
+            const companySize = formData.get('company_size');
+            const mainChallenge = formData.get('main_challenge');
+            const aiExperience = formData.get('ai_experience') || 'Not specified';
+            const timeline = formData.get('timeline') || 'Not specified';
+            const newsletter = formData.get('newsletter') ? 'Yes' : 'No';
+            
+            // Client-side validation
+            if (!companyName || !contactName || !email || !industry || !companySize || !mainChallenge) {
+                showMessage('Please fill in all required fields.', 'error');
+                return;
+            }
+            
+            // Email validation
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                showMessage('Please enter a valid email address.', 'error');
+                return;
+            }
+            
+            // Basic spam protection - check for excessive links or suspicious patterns
+            const suspiciousContent = /(http|www\.|\.com|\.net|\.org|buy now|free money|click here)/gi;
+            const suspiciousMatches = mainChallenge.match(suspiciousContent);
+            if (suspiciousMatches && suspiciousMatches.length > 2) {
+                showMessage('Your message appears to contain spam. Please remove promotional links and try again.', 'error');
+                return;
+            }
+            
+            // Create email body
+            const emailBody = `
+Free AI Readiness Assessment Request
+
+Company Information:
+- Company Name: ${companyName}
+- Industry: ${industry}
+- Company Size: ${companySize}
+
+Contact Information:
+- Name: ${contactName}
+- Email: ${email}
+- Phone: ${phone}
+
+Assessment Details:
+- Main Challenge: ${mainChallenge}
+- Current AI Experience: ${aiExperience}
+- Implementation Timeline: ${timeline}
+- Newsletter Subscription: ${newsletter}
+
+---
+This form was submitted via the Nanny-AI website contact form.
+            `.trim();
+            
+            // Create mailto link
+            const subject = encodeURIComponent(`Free AI Assessment Request - ${companyName}`);
+            const body = encodeURIComponent(emailBody);
+            const mailtoLink = `mailto:hello@nanny-ai.com?subject=${subject}&body=${body}`;
+            
+            // Show success message and offer options
+            showMessage('Thank you for your interest! Please choose how you\'d like to send your request:', 'success');
+            
+            // Create action buttons
+            setTimeout(() => {
+                const messageEl = document.querySelector('.form-message');
+                if (messageEl) {
+                    messageEl.innerHTML += `
+                        <div class="form-actions" style="margin-top: 1rem;">
+                            <button onclick="window.open('${mailtoLink}', '_blank')" class="action-btn primary">
+                                <i class="fas fa-envelope"></i> Open Email Client
+                            </button>
+                            <button onclick="copyToClipboard(\`${emailBody.replace(/`/g, '\\`')}\`)" class="action-btn secondary">
+                                <i class="fas fa-copy"></i> Copy Details
+                            </button>
+                            <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">
+                                Or call us directly at <strong>(555) 123-4567</strong>
+                            </div>
+                        </div>
+                    `;
+                }
+            }, 100);
+            
+            // Clear form after submission
+            this.reset();
+        });
+        
+        // Function to show messages
+        function showMessage(message, type) {
+            // Remove existing message
+            const existingMessage = document.querySelector('.form-message');
+            if (existingMessage) {
+                existingMessage.remove();
+            }
+            
+            // Create message element
+            const messageEl = document.createElement('div');
+            messageEl.className = `form-message ${type}`;
+            messageEl.innerHTML = `
+                <div class="message-content">
+                    <i class="fas fa-${type === 'success' ? 'check-circle' : 'exclamation-triangle'}"></i>
+                    <span>${message}</span>
+                </div>
+            `;
+            
+            // Insert after form
+            const form = document.querySelector('.contact-form');
+            form.parentNode.insertBefore(messageEl, form.nextSibling);
+            
+            // Auto-remove error messages after 5 seconds
+            if (type === 'error') {
+                setTimeout(() => {
+                    if (messageEl.parentNode) {
+                        messageEl.remove();
+                    }
+                }, 5000);
+            }
+        }
+        
+        // Function to copy text to clipboard
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                // Update copy button to show success
+                const copyBtn = document.querySelector('.action-btn.secondary');
+                if (copyBtn) {
+                    const originalHTML = copyBtn.innerHTML;
+                    copyBtn.innerHTML = '<i class="fas fa-check"></i> Copied!';
+                    copyBtn.style.background = '#059669';
+                    setTimeout(() => {
+                        copyBtn.innerHTML = originalHTML;
+                        copyBtn.style.background = '';
+                    }, 2000);
+                }
+            }).catch(() => {
+                // Fallback for older browsers
+                const textarea = document.createElement('textarea');
+                textarea.value = text;
+                document.body.appendChild(textarea);
+                textarea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textarea);
+                
+                const copyBtn = document.querySelector('.action-btn.secondary');
+                if (copyBtn) {
+                    const originalHTML = copyBtn.innerHTML;
+                    copyBtn.innerHTML = '<i class="fas fa-check"></i> Copied!';
+                    copyBtn.style.background = '#059669';
+                    setTimeout(() => {
+                        copyBtn.innerHTML = originalHTML;
+                        copyBtn.style.background = '';
+                    }, 2000);
+                }
+            });
+        }
+    </script>
+</body>
+</html>
