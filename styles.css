@@ -2402,11 +2402,13 @@ cite {
         left: -100%;
         top: 70px;
         flex-direction: column;
-        background-color: white;
+        background: rgba(15, 15, 35, 0.95);
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(0, 212, 255, 0.2);
         width: 100%;
         text-align: center;
         transition: 0.3s;
-        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.3);
         padding: 2rem 0;
     }
 
@@ -2417,6 +2419,21 @@ cite {
     .nav-menu a {
         padding: 1rem;
         display: block;
+        color: #f1f5f9 !important;
+        background: linear-gradient(135deg, #00d4ff 0%, #ff00d4 50%, #00ff88 100%);
+        background-size: 400% 400%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        animation: gradientShift 8s ease-in-out infinite;
+        font-weight: 500;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .nav-menu a:hover {
+        background: rgba(0, 212, 255, 0.1);
+        transform: scale(1.02);
+        transition: all 0.3s ease;
     }
 
     .hamburger.active span:nth-child(2) {
