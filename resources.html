@@ -366,6 +366,9 @@
             hamburger.classList.remove('active');
             navMenu.classList.remove('active');
         }));
+        // Mobile Contrast Enhancement Script
+        function enhanceContrastOnMobile() {
+            if (window.innerWidth <= 768) {
                 const textElements = document.querySelectorAll('p, span, h1, h2, h3, h4, h5, h6, li, a, div, label');
                 textElements.forEach(element => {
                     const computedStyle = window.getComputedStyle(element);
