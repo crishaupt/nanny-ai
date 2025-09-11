@@ -569,7 +569,8 @@ section {
 
 /* Problem/Solution Section */
 .problem-solution {
-    background: var(--background-light);
+    background: rgba(15, 15, 35, 0.3);
+    backdrop-filter: blur(10px);
 }
 
 .problem-solution-content {
@@ -627,7 +628,8 @@ section {
 
 /* Social Proof */
 .social-proof {
-    background: white;
+    background: rgba(15, 15, 35, 0.3);
+    backdrop-filter: blur(10px);
 }
 
 .trust-indicators {
@@ -662,7 +664,9 @@ section {
 }
 
 .testimonial-card {
-    background: var(--background-light);
+    background: rgba(15, 15, 35, 0.8);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(0, 212, 255, 0.2);
     padding: 2rem;
     border-radius: 12px;
     border-left: 4px solid var(--primary-color);
@@ -747,7 +751,9 @@ section {
 }
 
 .featured-quote {
-    background: white;
+    background: rgba(15, 15, 35, 0.8);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(0, 212, 255, 0.2);
     padding: 3rem;
     border-radius: 16px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -782,7 +788,9 @@ section {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: var(--background-light);
+    background: rgba(15, 15, 35, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 212, 255, 0.3);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -885,7 +893,8 @@ section {
 
 /* Services Page Styles */
 .services-overview {
-    background: white;
+    background: rgba(15, 15, 35, 0.8);
+    backdrop-filter: blur(15px);
     text-align: center;
 }
 
@@ -900,11 +909,14 @@ section {
 }
 
 .services-details {
-    background: var(--background-light);
+    background: rgba(15, 15, 35, 0.3);
+    backdrop-filter: blur(10px);
 }
 
 .service-card {
-    background: white;
+    background: rgba(15, 15, 35, 0.8);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(0, 212, 255, 0.2);
     border-radius: 12px;
     padding: 2.5rem;
     margin-bottom: 2rem;
@@ -1085,7 +1097,8 @@ section {
 
 /* Approach Section */
 .approach-section {
-    background: white;
+    background: rgba(15, 15, 35, 0.3);
+    backdrop-filter: blur(10px);
 }
 
 .approach-grid {
@@ -1117,7 +1130,8 @@ section {
 
 /* Industries Page Styles */
 .industries-section {
-    background: var(--background-light);
+    background: rgba(15, 15, 35, 0.3);
+    backdrop-filter: blur(10px);
 }
 
 .industries-intro {
@@ -1138,7 +1152,9 @@ section {
 }
 
 .industry-card {
-    background: white;
+    background: rgba(15, 15, 35, 0.8);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(0, 212, 255, 0.2);
     border-radius: 12px;
     padding: 2rem;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -1277,7 +1293,8 @@ section {
 
 /* Case Study */
 .case-study-preview {
-    background: white;
+    background: rgba(15, 15, 35, 0.3);
+    backdrop-filter: blur(10px);
     padding: 60px 0;
 }
 
@@ -1351,7 +1368,8 @@ cite {
 
 /* About Page Styles */
 .mission-section {
-    background: white;
+    background: rgba(15, 15, 35, 0.3);
+    backdrop-filter: blur(10px);
 }
 
 .mission-content {
@@ -1429,7 +1447,8 @@ cite {
 }
 
 .expertise-section {
-    background: white;
+    background: rgba(15, 15, 35, 0.3);
+    backdrop-filter: blur(10px);
 }
 
 .expertise-grid {
@@ -1508,7 +1527,9 @@ cite {
 }
 
 .value-item {
-    background: white;
+    background: rgba(15, 15, 35, 0.8);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(0, 212, 255, 0.2);
     padding: 2rem;
     border-radius: 12px;
     text-align: center;
@@ -1528,7 +1549,8 @@ cite {
 }
 
 .team-section {
-    background: white;
+    background: rgba(15, 15, 35, 0.3);
+    backdrop-filter: blur(10px);
 }
 
 .team-grid {
@@ -1640,7 +1662,8 @@ cite {
 
 /* Resources Page Styles */
 .lead-magnets {
-    background: var(--background-light);
+    background: rgba(15, 15, 35, 0.3);
+    backdrop-filter: blur(10px);
 }
 
 .resources-grid {
@@ -1650,7 +1673,9 @@ cite {
 }
 
 .resource-card {
-    background: white;
+    background: rgba(15, 15, 35, 0.8);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(0, 212, 255, 0.2);
     border-radius: 12px;
     padding: 2rem;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -1718,7 +1743,8 @@ cite {
 }
 
 .educational-content {
-    background: white;
+    background: rgba(15, 15, 35, 0.3);
+    backdrop-filter: blur(10px);
 }
 
 .content-section {
@@ -1811,7 +1837,9 @@ cite {
 }
 
 .tool-card {
-    background: white;
+    background: rgba(15, 15, 35, 0.8);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(0, 212, 255, 0.2);
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -1856,7 +1884,9 @@ cite {
 .calc-field input {
     width: 100%;
     padding: 0.75rem;
-    border: 1px solid var(--border-color);
+    background: rgba(15, 15, 35, 0.6);
+    color: #f1f5f9;
+    border: 1px solid rgba(0, 212, 255, 0.3);
     border-radius: 4px;
     background: #f0f0f0;
 }
@@ -1906,7 +1936,8 @@ cite {
 }
 
 .blog-preview {
-    background: white;
+    background: rgba(15, 15, 35, 0.3);
+    backdrop-filter: blur(10px);
 }
 
 .blog-grid {
@@ -1967,7 +1998,8 @@ cite {
 
 /* Contact Page Styles */
 .contact-main {
-    background: var(--background-light);
+    background: rgba(15, 15, 35, 0.3);
+    backdrop-filter: blur(10px);
 }
 
 .contact-grid {
@@ -1981,7 +2013,9 @@ cite {
 }
 
 .assessment-benefits {
-    background: white;
+    background: rgba(15, 15, 35, 0.8);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(0, 212, 255, 0.2);
     padding: 1.5rem;
     border-radius: 8px;
     margin: 1.5rem 0;
@@ -2000,7 +2034,9 @@ cite {
 }
 
 .contact-form {
-    background: white;
+    background: rgba(15, 15, 35, 0.8);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(0, 212, 255, 0.2);
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -2028,7 +2064,9 @@ cite {
 .form-group textarea {
     width: 100%;
     padding: 0.75rem;
-    border: 2px solid var(--border-color);
+    background: rgba(15, 15, 35, 0.6);
+    color: #f1f5f9;
+    border: 2px solid rgba(0, 212, 255, 0.3);
     border-radius: 6px;
     font-size: 1rem;
     transition: border-color 0.3s ease;
@@ -2087,7 +2125,9 @@ cite {
 }
 
 .contact-info-card {
-    background: white;
+    background: rgba(15, 15, 35, 0.8);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(0, 212, 255, 0.2);
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -2146,7 +2186,9 @@ cite {
 }
 
 .faq-preview {
-    background: white;
+    background: rgba(15, 15, 35, 0.8);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(0, 212, 255, 0.2);
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -2187,7 +2229,9 @@ cite {
 
 .trust-item {
     text-align: center;
-    background: white;
+    background: rgba(15, 15, 35, 0.8);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(0, 212, 255, 0.2);
     padding: 2rem;
     border-radius: 12px;
 }
