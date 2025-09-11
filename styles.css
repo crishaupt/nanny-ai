@@ -2419,21 +2419,19 @@ cite {
     .nav-menu a {
         padding: 1rem;
         display: block;
-        color: #f1f5f9 !important;
-        background: linear-gradient(135deg, #00d4ff 0%, #ff00d4 50%, #00ff88 100%);
-        background-size: 400% 400%;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        animation: gradientShift 8s ease-in-out infinite;
-        font-weight: 500;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        color: #00d4ff !important;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.1rem;
+        border-bottom: 1px solid rgba(0, 212, 255, 0.2);
+        transition: all 0.3s ease;
     }
 
     .nav-menu a:hover {
-        background: rgba(0, 212, 255, 0.1);
+        color: #00ff88 !important;
+        background: rgba(0, 212, 255, 0.15);
         transform: scale(1.02);
-        transition: all 0.3s ease;
+        border-radius: 8px;
     }
 
     .hamburger.active span:nth-child(2) {
