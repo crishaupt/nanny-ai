@@ -81,28 +81,28 @@
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="company-name">Company Name *</label>
-                                <input type="text" id="company-name" name="company_name" required>
+                                <input type="text" id="company-name" name="company_name" class="form-control" placeholder="Your Company Name" required>
                             </div>
                             <div class="form-group">
                                 <label for="contact-name">Your Name *</label>
-                                <input type="text" id="contact-name" name="contact_name" required>
+                                <input type="text" id="contact-name" name="contact_name" class="form-control" placeholder="Your Full Name" required>
                             </div>
                         </div>
 
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="email">Email Address *</label>
-                                <input type="email" id="email" name="email" required>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="your.email@company.com" required>
                             </div>
                             <div class="form-group">
                                 <label for="phone">Phone Number</label>
-                                <input type="tel" id="phone" name="phone">
+                                <input type="tel" id="phone" name="phone" class="form-control" placeholder="(555) 123-4567">
                             </div>
                         </div>
 
                         <div class="form-group">
                             <label for="industry">Industry *</label>
-                            <select id="industry" name="industry" required>
+                            <select id="industry" name="industry" class="form-control" required>
                                 <option value="">Select your industry</option>
                                 <option value="professional-services">Professional Services (Legal, Accounting, Consulting)</option>
                                 <option value="healthcare">Healthcare (Clinics, Dental, Medical Practices)</option>
@@ -118,7 +118,7 @@
 
                         <div class="form-group">
                             <label for="company-size">Company Size *</label>
-                            <select id="company-size" name="company_size" required>
+                            <select id="company-size" name="company_size" class="form-control" required>
                                 <option value="">Select company size</option>
                                 <option value="1-5">1-5 employees</option>
                                 <option value="6-20">6-20 employees</option>
@@ -130,12 +130,12 @@
 
                         <div class="form-group">
                             <label for="main-challenge">What's your main business challenge? *</label>
-                            <textarea id="main-challenge" name="main_challenge" rows="4" placeholder="e.g., We spend too much time on manual data entry and want to automate repetitive tasks to focus on higher-value work..." required></textarea>
+                            <textarea id="main-challenge" name="main_challenge" rows="4" class="form-control" placeholder="e.g., We spend too much time on manual data entry and want to automate repetitive tasks to focus on higher-value work..." required></textarea>
                         </div>
 
                         <div class="form-group">
                             <label for="ai-experience">Current AI Experience</label>
-                            <select id="ai-experience" name="ai_experience">
+                            <select id="ai-experience" name="ai_experience" class="form-control">
                                 <option value="">Select your experience level</option>
                                 <option value="none">No AI experience</option>
                                 <option value="research">Researching AI options</option>
@@ -147,7 +147,7 @@
 
                         <div class="form-group">
                             <label for="timeline">When are you looking to implement AI?</label>
-                            <select id="timeline" name="timeline">
+                            <select id="timeline" name="timeline" class="form-control">
                                 <option value="">Select timeline</option>
                                 <option value="immediately">Immediately (within 1 month)</option>
                                 <option value="3-months">Within 3 months</option>
@@ -156,12 +156,20 @@
                             </select>
                         </div>
 
-                        <div class="form-group checkbox-group">
-                            <input type="checkbox" id="newsletter" name="newsletter">
-                            <label for="newsletter">Subscribe to our newsletter for AI tips and industry insights</label>
+                        <div class="form-group">
+                            <div class="checkbox-wrapper">
+                                <input type="checkbox" id="newsletter" name="newsletter" class="form-checkbox">
+                                <label for="newsletter" class="checkbox-label">
+                                    <span class="checkbox-checkmark"></span>
+                                    Subscribe to our newsletter for AI tips and industry insights
+                                </label>
+                            </div>
                         </div>
 
-                        <button type="submit" class="submit-btn">Get My Free Assessment</button>
+                        <button type="submit" class="btn btn-primary" style="width: 100%; padding: 1rem 2rem; font-size: 1.1rem; font-weight: 600;">
+                            <i class="fas fa-rocket"></i>
+                            Get My Free Assessment
+                        </button>
 
                         <div class="form-guarantee">
                             <p><i class="fas fa-shield-alt"></i> <strong>Privacy Guaranteed:</strong> Your information is secure and will never be shared. No spam, no pressure sales calls.</p>
