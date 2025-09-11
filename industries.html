@@ -371,6 +371,48 @@
             hamburger.classList.remove('active');
             navMenu.classList.remove('active');
         }));
+                const textElements = document.querySelectorAll('p, span, h1, h2, h3, h4, h5, h6, li, a, div, label');
+                textElements.forEach(element => {
+                    const computedStyle = window.getComputedStyle(element);
+                    const bgColor = computedStyle.backgroundColor;
+                    if (bgColor === 'rgba(0, 0, 0, 0)' || bgColor === 'transparent' || 
+                        bgColor.includes('255, 255, 255') || bgColor.includes('240, 240, 240')) {
+                        element.style.backgroundColor = 'rgba(15, 15, 35, 0.95)';
+                        element.style.backdropFilter = 'blur(15px)';
+                        element.style.borderRadius = '8px';
+                        element.style.padding = '0.5rem';
+                        element.style.margin = '0.25rem 0';
+                        element.style.border = '1px solid rgba(0, 212, 255, 0.2)';
+                    }
+                    element.style.color = '#f1f5f9';
+                    element.style.textShadow = '0 0 2px rgba(0, 0, 0, 0.8)';
+                });
+                const containers = document.querySelectorAll('section, div, .container');
+                containers.forEach(container => {
+                    const computedStyle = window.getComputedStyle(container);
+                    const bgColor = computedStyle.backgroundColor;
+                    if (bgColor === 'rgba(0, 0, 0, 0)' || bgColor === 'transparent') {
+                        container.style.backgroundColor = 'rgba(15, 15, 35, 0.9)';
+                        container.style.backdropFilter = 'blur(15px)';
+                    }
+                });
+                const logoItems = document.querySelectorAll('.logo-placeholder, .logo-item');
+                logoItems.forEach(item => {
+                    item.style.backgroundColor = 'rgba(15, 15, 35, 0.95)';
+                    item.style.color = '#00d4ff';
+                    item.style.border = '2px solid rgba(0, 212, 255, 0.4)';
+                    item.style.backdropFilter = 'blur(20px)';
+                    const text = item.querySelectorAll('span, p, div');
+                    text.forEach(textEl => {
+                        textEl.style.color = '#f1f5f9';
+                        textEl.style.fontWeight = '600';
+                    });
+                });
+            }
+        }
+        window.addEventListener('load', enhanceContrastOnMobile);
+        window.addEventListener('resize', enhanceContrastOnMobile);
+        setInterval(enhanceContrastOnMobile, 2000);
     </script>
 </body>
 </html>

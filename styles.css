@@ -2443,6 +2443,46 @@ cite {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    /* Mobile: Force darker, more opaque backgrounds for better contrast */
+    body {
+        background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%) !important;
+    }
+    
+    /* Force all transparent sections to be darker on mobile */
+    section {
+        background: rgba(15, 15, 35, 0.9) !important;
+        backdrop-filter: blur(15px) !important;
+        border: 1px solid rgba(0, 212, 255, 0.2) !important;
+    }
+    
+    /* Force all cards and containers to be dark */
+    .benefit-card,
+    .service-card,
+    .industry-card,
+    .testimonial-card,
+    .resource-card,
+    .tool-card,
+    .logo-placeholder,
+    .problem-side,
+    .solution-side,
+    .contact-form,
+    .contact-info-card,
+    .value-item,
+    .trust-item,
+    .faq-preview,
+    .assessment-benefits {
+        background: rgba(15, 15, 35, 0.95) !important;
+        backdrop-filter: blur(20px) !important;
+        border: 1px solid rgba(0, 212, 255, 0.3) !important;
+        color: #f1f5f9 !important;
+    }
+    
+    /* Ensure all text is bright on mobile */
+    p, span, li, a, h1, h2, h3, h4, h5, h6 {
+        color: #f1f5f9 !important;
+        text-shadow: 0 0 1px rgba(0, 0, 0, 0.8) !important;
+    }
+
     .hamburger {
         display: flex;
     }
@@ -2452,13 +2492,13 @@ cite {
         left: -100%;
         top: 70px;
         flex-direction: column;
-        background: rgba(15, 15, 35, 0.95);
-        backdrop-filter: blur(20px);
-        border: 1px solid rgba(0, 212, 255, 0.2);
+        background: rgba(15, 15, 35, 0.98) !important;
+        backdrop-filter: blur(25px) !important;
+        border: 2px solid rgba(0, 212, 255, 0.5) !important;
         width: 100%;
         text-align: center;
         transition: 0.3s;
-        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8) !important;
         padding: 2rem 0;
     }
 
