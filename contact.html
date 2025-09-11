@@ -561,5 +561,73 @@ This form was submitted via the Nanny-AI website contact form.
             });
         }
     </script>
+    <script>
+        // Modern jQuery animations and interactions
+        $(document).ready(function() {
+            // Mobile menu toggle
+            $(".hamburger").click(function() {
+                $(this).toggleClass("active");
+                $(".nav-menu").toggleClass("active");
+            });
+
+            // Close mobile menu when link is clicked
+            $(".nav-link").click(function() {
+                $(".hamburger").removeClass("active");
+                $(".nav-menu").removeClass("active");
+            });
+
+            // Scroll animations
+            function animateOnScroll() {
+                $(".fade-in, .slide-up").each(function() {
+                    var elementTop = $(this).offset().top;
+                    var elementBottom = elementTop + $(this).outerHeight();
+                    var viewportTop = $(window).scrollTop();
+                    var viewportBottom = viewportTop + $(window).height();
+
+                    if (elementBottom > viewportTop && elementTop < viewportBottom) {
+                        $(this).addClass("visible");
+                    }
+                });
+            }
+
+            // Initial check and scroll listener
+            animateOnScroll();
+            $(window).scroll(animateOnScroll);
+
+            // Smooth hover effects for interactive elements
+            $(".interactive, .card, .tile").hover(
+                function() {
+                    $(this).addClass("loading");
+                    setTimeout(() => {
+                        $(this).removeClass("loading");
+                    }, 150);
+                }
+            );
+
+            // Button click effects
+            $(".btn").click(function(e) {
+                if (!$(this).attr("href") || $(this).attr("href").startsWith("#")) {
+                    e.preventDefault();
+                }
+                
+                $(this).addClass("loading");
+                setTimeout(() => {
+                    $(this).removeClass("loading");
+                    if ($(this).attr("href") && !$(this).attr("href").startsWith("#")) {
+                        window.location.href = $(this).attr("href");
+                    }
+                }, 200);
+            });
+
+            // Header background on scroll
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 50) {
+                    $("header").css("background", "rgba(255, 255, 255, 0.98)");
+                } else {
+                    $("header").css("background", "rgba(255, 255, 255, 0.95)");
+                }
+            });
+        });
+    </script>
 </body>
 </html>
