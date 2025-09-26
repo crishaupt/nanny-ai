@@ -299,30 +299,62 @@ section {
 
 .form-group label {
     display: block;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
     font-weight: 600;
-    color: #1a202c;
+    color: #2d3748;
+    font-size: 0.925rem;
+    letter-spacing: 0.025em;
 }
 
 .form-control {
     width: 100%;
-    padding: 0.875rem 1rem;
+    padding: 1rem 1.25rem;
     border: 2px solid #e2e8f0;
-    border-radius: 12px;
+    border-radius: 16px;
     font-size: 1rem;
-    transition: all 0.3s ease;
-    background: white;
+    font-weight: 400;
+    line-height: 1.5;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    background: linear-gradient(135deg, #ffffff 0%, #fefefe 100%);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.form-control:hover {
+    border-color: #cbd5e0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07), 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
 .form-control:focus {
     outline: none;
     border-color: #3182ce;
-    box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.1);
+    background: #ffffff;
+    box-shadow: 0 0 0 4px rgba(49, 130, 206, 0.12), 0 8px 25px rgba(49, 130, 206, 0.1);
+    transform: translateY(-1px);
 }
 
 textarea.form-control {
     resize: vertical;
-    min-height: 120px;
+    min-height: 140px;
+    line-height: 1.6;
+}
+
+select.form-control {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
+    background-position: right 0.75rem center;
+    background-repeat: no-repeat;
+    background-size: 1.5em 1.5em;
+    padding-right: 2.5rem;
+    cursor: pointer;
+}
+
+select.form-control:hover {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%233182ce' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
+}
+
+.form-control::placeholder {
+    color: #a0aec0;
+    font-weight: 400;
+    opacity: 1;
 }
 
 /* Footer */
