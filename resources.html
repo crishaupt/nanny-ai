@@ -54,7 +54,7 @@
                 <h2>Free Downloads</h2>
                 <p>Professional resources to help you implement AI successfully</p>
             </div>
-            <div class="grid grid-2">
+            <div class="grid grid-3">
                 <div class="card slide-up featured">
                     <div class="card-icon">
                         <i class="fas fa-clipboard-list"></i>
@@ -67,7 +67,7 @@
                         <li>Team skill gap analysis</li>
                         <li>Budget planning framework</li>
                     </ul>
-                    <a href="contact.html" class="btn btn-primary">Download Free Checklist</a>
+                    <a href="ai-readiness-checklist.html" target="_blank" class="btn btn-primary">Get PDF Checklist</a>
                 </div>
 
                 <div class="card slide-up">
@@ -82,7 +82,7 @@
                         <li>Implementation timeline planner</li>
                         <li>Risk assessment framework</li>
                     </ul>
-                    <a href="contact.html" class="btn btn-primary">Get Calculator</a>
+                    <a href="#" onclick="showROICalculator()" class="btn btn-primary">Get Calculator</a>
                 </div>
 
                 <div class="card slide-up">
@@ -97,23 +97,9 @@
                         <li>Recovery techniques</li>
                         <li>Best practice frameworks</li>
                     </ul>
-                    <a href="contact.html" class="btn btn-primary">Download Guide</a>
+                    <a href="ai-mistakes-guide.html" target="_blank" class="btn btn-primary">Get PDF Guide</a>
                 </div>
 
-                <div class="card slide-up">
-                    <div class="card-icon">
-                        <i class="fas fa-industry"></i>
-                    </div>
-                    <h3>5 AI Tools Every Manufacturing Business Should Consider</h3>
-                    <p>Industry-specific guide highlighting the most impactful AI tools for manufacturing and distribution businesses, with implementation tips.</p>
-                    <ul class="feature-list">
-                        <li>Tool comparison matrix</li>
-                        <li>Implementation difficulty ratings</li>
-                        <li>Cost-benefit analysis</li>
-                        <li>Vendor recommendations</li>
-                    </ul>
-                    <a href="contact.html" class="btn btn-primary">Get Industry Guide</a>
-                </div>
             </div>
         </div>
     </section>
@@ -127,13 +113,6 @@
             </div>
             
             <div class="grid grid-2">
-                <div class="card slide-up">
-                    <div class="card-icon">
-                        <i class="fas fa-question-circle"></i>
-                    </div>
-                    <h3>What is AI Really?</h3>
-                    <p>Demystifying artificial intelligence and machine learning in simple business terms.</p>
-                </div>
                 <div class="card slide-up">
                     <div class="card-icon">
                         <i class="fas fa-dollar-sign"></i>
@@ -286,7 +265,7 @@
                     </div>
                     <h3>5 Signs Your Business is Ready for AI Implementation</h3>
                     <p>Not sure if your business is ready for AI? These five indicators will help you determine if now is the right time to start your AI journey.</p>
-                    <a href="#" class="blog-link">Read Article <i class="fas fa-arrow-right"></i></a>
+                    <a href="https://edistaffing.com/2024/04/19/is-your-business-ai-ready-5-key-indicators/" target="_blank" class="blog-link">Read Article <i class="fas fa-arrow-right"></i></a>
                 </div>
 
                 <div class="card slide-up">
@@ -296,7 +275,7 @@
                     </div>
                     <h3>How a Small Accounting Firm Saved $85k with AI</h3>
                     <p>A detailed case study showing how automated document processing transformed a 12-person CPA firm's efficiency and profitability.</p>
-                    <a href="#" class="blog-link">Read Case Study <i class="fas fa-arrow-right"></i></a>
+                    <a href="case-study-accounting-firm.html" class="blog-link">Read Case Study <i class="fas fa-arrow-right"></i></a>
                 </div>
 
                 <div class="card slide-up">
@@ -306,7 +285,7 @@
                     </div>
                     <h3>AI Trends Every Small Business Owner Should Know in 2025</h3>
                     <p>Stay ahead of the curve with insights into the AI trends that will impact small businesses this year and beyond.</p>
-                    <a href="#" class="blog-link">Read Article <i class="fas fa-arrow-right"></i></a>
+                    <a href="https://www.uschamber.com/technology/empowering-small-business-the-impact-of-technology-on-u-s-small-business" target="_blank" class="blog-link">Read Article <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
             
@@ -354,7 +333,7 @@
                     <h4>Contact</h4>
                     <a href="contact.html">Get in Touch</a><br>
                     <a href="contact.html">Free Assessment</a><br>
-                    <a href="resources.html">Resources</a>
+                    <a href="contact.html">Chicago, IL</a>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -363,6 +342,114 @@
         </div>
     </footer>
 
+    <script>
+        // ROI Calculator Popup
+        function showROICalculator() {
+            const popupHTML = `
+                <div id="roiCalculatorPopup" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 10000; display: flex; align-items: center; justify-content: center;">
+                    <div style="background: white; border-radius: 12px; padding: 2rem; max-width: 600px; width: 90%; max-height: 80vh; overflow-y: auto;">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+                            <h2 style="color: #3182ce; margin: 0;">AI ROI Calculator & Planning Template</h2>
+                            <button onclick="closeROICalculator()" style="background: none; border: none; font-size: 1.5rem; cursor: pointer; color: #6b7280;">&times;</button>
+                        </div>
+                        
+                        <div style="background: #f0f9ff; padding: 1rem; border-radius: 8px; margin-bottom: 1.5rem;">
+                            <h3 style="color: #1e40af; margin-bottom: 0.5rem;">Quick ROI Estimation</h3>
+                            <p style="color: #6b7280; margin: 0; font-size: 0.9rem;">Get an instant estimate of your AI implementation ROI</p>
+                        </div>
+
+                        <div style="margin-bottom: 1.5rem;">
+                            <label style="display: block; font-weight: 600; color: #1a202c; margin-bottom: 0.5rem;">Monthly hours spent on repetitive tasks:</label>
+                            <input type="number" id="monthlyHours" placeholder="e.g., 160" style="width: 100%; padding: 0.75rem; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem;">
+                        </div>
+
+                        <div style="margin-bottom: 1.5rem;">
+                            <label style="display: block; font-weight: 600; color: #1a202c; margin-bottom: 0.5rem;">Average hourly cost (salary + benefits):</label>
+                            <input type="number" id="hourlyCost" placeholder="e.g., 35" style="width: 100%; padding: 0.75rem; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem;">
+                        </div>
+
+                        <div style="margin-bottom: 1.5rem;">
+                            <label style="display: block; font-weight: 600; color: #1a202c; margin-bottom: 0.5rem;">Expected AI efficiency improvement:</label>
+                            <select id="efficiencyGain" style="width: 100%; padding: 0.75rem; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem;">
+                                <option value="0.3">30% (Conservative)</option>
+                                <option value="0.5" selected>50% (Typical)</option>
+                                <option value="0.7">70% (Aggressive)</option>
+                            </select>
+                        </div>
+
+                        <div style="margin-bottom: 1.5rem;">
+                            <label style="display: block; font-weight: 600; color: #1a202c; margin-bottom: 0.5rem;">Estimated AI implementation cost:</label>
+                            <input type="number" id="implementationCost" placeholder="e.g., 25000" style="width: 100%; padding: 0.75rem; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem;">
+                        </div>
+
+                        <button onclick="calculateROI()" style="width: 100%; background: #3182ce; color: white; padding: 1rem; border: none; border-radius: 8px; font-size: 1.1rem; font-weight: 600; cursor: pointer; margin-bottom: 1.5rem;">
+                            Calculate ROI
+                        </button>
+
+                        <div id="roiResults" style="display: none; background: #f0fdf4; padding: 1.5rem; border-radius: 8px; border-left: 4px solid #22c55e;">
+                            <h3 style="color: #059669; margin-bottom: 1rem;">Your AI ROI Projection</h3>
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin-bottom: 1rem;">
+                                <div style="text-align: center;">
+                                    <div style="font-size: 1.5rem; font-weight: 800; color: #059669;" id="monthlySavings">$0</div>
+                                    <div style="color: #6b7280; font-size: 0.9rem;">Monthly Savings</div>
+                                </div>
+                                <div style="text-align: center;">
+                                    <div style="font-size: 1.5rem; font-weight: 800; color: #059669;" id="annualSavings">$0</div>
+                                    <div style="color: #6b7280; font-size: 0.9rem;">Annual Savings</div>
+                                </div>
+                                <div style="text-align: center;">
+                                    <div style="font-size: 1.5rem; font-weight: 800; color: #059669;" id="roiPercentage">0%</div>
+                                    <div style="color: #6b7280; font-size: 0.9rem;">First Year ROI</div>
+                                </div>
+                                <div style="text-align: center;">
+                                    <div style="font-size: 1.5rem; font-weight: 800; color: #059669;" id="paybackPeriod">0</div>
+                                    <div style="color: #6b7280; font-size: 0.9rem;">Payback (months)</div>
+                                </div>
+                            </div>
+                            <p style="color: #4a5568; font-size: 0.9rem; margin: 0;">*Results are estimates based on typical AI implementation scenarios. Actual results may vary.</p>
+                        </div>
+
+                        <div style="text-align: center; margin-top: 1.5rem;">
+                            <p style="color: #6b7280; margin-bottom: 1rem;">Want a detailed analysis for your specific business?</p>
+                            <a href="contact.html" style="background: #3182ce; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 8px; font-weight: 600;">Get Free Assessment</a>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            document.body.insertAdjacentHTML('beforeend', popupHTML);
+        }
+
+        function closeROICalculator() {
+            const popup = document.getElementById('roiCalculatorPopup');
+            if (popup) {
+                popup.remove();
+            }
+        }
+
+        function calculateROI() {
+            const monthlyHours = parseFloat(document.getElementById('monthlyHours').value) || 0;
+            const hourlyCost = parseFloat(document.getElementById('hourlyCost').value) || 0;
+            const efficiencyGain = parseFloat(document.getElementById('efficiencyGain').value) || 0.5;
+            const implementationCost = parseFloat(document.getElementById('implementationCost').value) || 0;
+
+            if (monthlyHours > 0 && hourlyCost > 0) {
+                const monthlySavings = monthlyHours * hourlyCost * efficiencyGain;
+                const annualSavings = monthlySavings * 12;
+                const roi = implementationCost > 0 ? ((annualSavings - implementationCost) / implementationCost * 100) : 0;
+                const paybackMonths = implementationCost > 0 ? Math.ceil(implementationCost / monthlySavings) : 0;
+
+                document.getElementById('monthlySavings').textContent = '$' + monthlySavings.toLocaleString();
+                document.getElementById('annualSavings').textContent = '$' + annualSavings.toLocaleString();
+                document.getElementById('roiPercentage').textContent = Math.round(roi) + '%';
+                document.getElementById('paybackPeriod').textContent = paybackMonths + ' mo';
+                
+                document.getElementById('roiResults').style.display = 'block';
+            } else {
+                alert('Please fill in the monthly hours and hourly cost fields.');
+            }
+        }
+    </script>
     <script src="script.js"></script>
 </body>
 </html>

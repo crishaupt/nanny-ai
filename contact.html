@@ -94,10 +94,6 @@
                                 <label for="email">Email Address *</label>
                                 <input type="email" id="email" name="email" class="form-control" placeholder="your.email@company.com" required>
                             </div>
-                            <div class="form-group">
-                                <label for="phone">Phone Number</label>
-                                <input type="tel" id="phone" name="phone" class="form-control" placeholder="(555) 123-4567">
-                            </div>
                         </div>
 
                         <div class="form-group">
@@ -182,16 +178,6 @@
                     <div class="contact-info-card">
                         <h3>Other Ways to Reach Us</h3>
                         
-                        <div class="contact-method">
-                            <div class="contact-icon">
-                                <i class="fas fa-phone"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h4>Phone</h4>
-                                <p>(555) 123-4567</p>
-                                <span>Monday - Friday, 9 AM - 6 PM EST</span>
-                            </div>
-                        </div>
 
                         <div class="contact-method">
                             <div class="contact-icon">
@@ -317,9 +303,8 @@
                 <div class="footer-section">
                     <h4>Contact</h4>
                     <ul>
-                        <li><i class="fas fa-phone"></i> (555) 123-4567</li>
                         <li><i class="fas fa-envelope"></i> hello@nanny-ai.com</li>
-                        <li><i class="fas fa-map-marker-alt"></i> Business District, Your City</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Chicago, IL</li>
                     </ul>
                 </div>
             </div>
@@ -416,7 +401,6 @@
             const companyName = formData.get('company_name');
             const contactName = formData.get('contact_name');
             const email = formData.get('email');
-            const phone = formData.get('phone') || 'Not provided';
             const industry = formData.get('industry');
             const companySize = formData.get('company_size');
             const mainChallenge = formData.get('main_challenge');
@@ -457,7 +441,6 @@ Company Information:
 Contact Information:
 - Name: ${contactName}
 - Email: ${email}
-- Phone: ${phone}
 
 Assessment Details:
 - Main Challenge: ${mainChallenge}
