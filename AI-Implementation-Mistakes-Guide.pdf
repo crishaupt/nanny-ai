@@ -1,0 +1,119 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+>>
+endobj
+
+4 0 obj
+<<
+/Length 2500
+>>
+stream
+BT
+/F1 12 Tf
+50 750 Td
+(COMMON AI IMPLEMENTATION MISTAKES GUIDE) Tj
+0 -30 Td
+(=====================================) Tj
+0 -40 Td
+(How to Avoid the 15 Most Costly AI Implementation Failures) Tj
+0 -40 Td
+(INTRODUCTION: THE HIGH COST OF AI MISTAKES) Tj
+0 -20 Td
+(• 70% of AI projects fail to deliver expected results) Tj
+0 -15 Td
+(• .2 billion wasted annually on poor AI implementations) Tj
+0 -15 Td
+(• 80% of failures stem from organizational, not technical issues) Tj
+0 -15 Td
+(• Average recovery time after failed project: 8-12 months) Tj
+0 -40 Td
+(THE 15 MOST COMMON MISTAKES:) Tj
+0 -30 Td
+(1. STARTING WITHOUT CLEAR BUSINESS OBJECTIVES) Tj
+0 -15 Td
+(Problem: Implementing AI without defining specific problems to solve) Tj
+0 -15 Td
+(Prevention: Define 3-5 specific, measurable business problems) Tj
+0 -30 Td
+(2. UNDERESTIMATING DATA PREPARATION REQUIREMENTS) Tj
+0 -15 Td
+(Problem: Assuming data is AI-ready without assessment) Tj
+0 -15 Td
+(Prevention: Allocate 60-80% of project time to data preparation) Tj
+0 -30 Td
+(3. CHOOSING THE WRONG FIRST USE CASE) Tj
+0 -15 Td
+(Problem: Selecting overly complex projects for first implementation) Tj
+0 -15 Td
+(Prevention: Choose high-impact, low-complexity projects first) Tj
+0 -30 Td
+(4. INSUFFICIENT CHANGE MANAGEMENT) Tj
+0 -15 Td
+(Problem: Focusing only on technology, ignoring human factors) Tj
+0 -15 Td
+(Prevention: Involve end-users in design and provide training) Tj
+0 -30 Td
+(5. UNREALISTIC TIMELINE EXPECTATIONS) Tj
+0 -15 Td
+(Problem: Expecting immediate results with impossible deadlines) Tj
+0 -15 Td
+(Prevention: Plan for 2-3x longer than initial estimates) Tj
+0 -30 Td
+(SUCCESS FRAMEWORK: THE 5 PILLARS) Tj
+0 -20 Td
+(1. Strategic Alignment - Clear objectives and executive support) Tj
+0 -15 Td
+(2. Data Foundation - Quality assessment and governance) Tj
+0 -15 Td
+(3. Organizational Readiness - Change management and training) Tj
+0 -15 Td
+(4. Technical Execution - Right-sized solution and integration) Tj
+0 -15 Td
+(5. Continuous Improvement - Monitoring and optimization) Tj
+0 -40 Td
+(Contact Nanny-AI for expert guidance:) Tj
+0 -15 Td
+(Email: hello@nanny-ai.com) Tj
+0 -15 Td
+(Location: Chicago, IL) Tj
+0 -15 Td
+(Website: nanny-ai.com/contact) Tj
+ET
+endstream
+endobj
+
+xref
+0 5
+0000000000 65535 f 
+0000000010 00000 n 
+0000000079 00000 n 
+0000000136 00000 n 
+0000000229 00000 n 
+trailer
+<<
+/Size 5
+/Root 1 0 R
+>>
+startxref
+2800
+%%EOF

@@ -1,0 +1,117 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+>>
+endobj
+
+4 0 obj
+<<
+/Length 2000
+>>
+stream
+BT
+/F1 12 Tf
+50 750 Td
+(THE SMALL BUSINESS AI READINESS CHECKLIST) Tj
+0 -30 Td
+(========================================) Tj
+0 -40 Td
+(25-Point Assessment to Determine Your Business AI Implementation Readiness) Tj
+0 -40 Td
+(TECHNOLOGY INFRASTRUCTURE ASSESSMENT \(6 points\)) Tj
+0 -20 Td
+(☐ Modern cloud-based software systems \(CRM, ERP, accounting\)) Tj
+0 -15 Td
+(☐ Reliable internet connectivity \(minimum 25 Mbps\)) Tj  
+0 -15 Td
+(☐ Regular software updates and security patches) Tj
+0 -15 Td
+(☐ API integration capabilities with existing tools) Tj
+0 -15 Td
+(☐ Data backup and recovery systems in place) Tj
+0 -15 Td
+(☐ Mobile device management for remote work) Tj
+0 -30 Td
+(SCORE: ___/6) Tj
+0 -40 Td
+(DATA READINESS EVALUATION \(5 points\)) Tj
+0 -20 Td
+(☐ Clean, organized customer and business data) Tj
+0 -15 Td
+(☐ Consistent data formats across all systems) Tj
+0 -15 Td
+(☐ Data governance policies and procedures) Tj
+0 -15 Td
+(☐ Regular data quality audits and cleanup) Tj
+0 -15 Td
+(☐ GDPR/compliance-ready data handling) Tj
+0 -30 Td
+(SCORE: ___/5) Tj
+0 -40 Td
+(TEAM SKILLS GAP ANALYSIS \(7 points\)) Tj
+0 -20 Td
+(☐ Basic digital literacy across all staff) Tj
+0 -15 Td
+(☐ At least one tech-savvy team member) Tj
+0 -15 Td
+(☐ Willingness to learn new tools and processes) Tj
+0 -15 Td
+(☐ Project management experience) Tj
+0 -15 Td
+(☐ Change management capabilities) Tj
+0 -15 Td
+(☐ Data analysis skills \(basic Excel/reporting\)) Tj
+0 -15 Td
+(☐ Customer service automation readiness) Tj
+0 -30 Td
+(SCORE: ___/7) Tj
+0 -40 Td
+(BUDGET PLANNING FRAMEWORK \(4 points\)) Tj
+0 -20 Td
+(☐ Dedicated AI implementation budget \(K-0K+\)) Tj
+0 -15 Td
+(☐ Understanding of ongoing costs \(subscriptions, training\)) Tj
+0 -15 Td
+(☐ ROI measurement framework in place) Tj
+0 -15 Td
+(☐ Executive commitment to 6-12 month timeline) Tj
+0 -30 Td
+(SCORE: ___/4) Tj
+ET
+endstream
+endobj
+
+xref
+0 5
+0000000000 65535 f 
+0000000010 00000 n 
+0000000079 00000 n 
+0000000136 00000 n 
+0000000229 00000 n 
+trailer
+<<
+/Size 5
+/Root 1 0 R
+>>
+startxref
+2300
+%%EOF
