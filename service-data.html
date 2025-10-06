@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data & Analysis | Nanny-AI</title>
+    <meta name="description" content="First-pass supply chain analysis with visible assumptions and preview-before-share for confident logistics decisions.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <i class="fas fa-hands-helping"></i>
+                    Nanny-AI
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="services.html" class="nav-link active">Services</a></li>
+                    <li><a href="use-cases.html" class="nav-link">Use Cases</a></li>
+                    <li><a href="industries.html" class="nav-link">Industries</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="resources.html" class="nav-link">Resources</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="contact.html" class="btn btn-primary">Get Started</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1><i class="fas fa-chart-bar" style="color: #dc2626; margin-right: 1rem;"></i>Data & Analysis</h1>
+                <p style="font-size: 1.25rem; max-width: 900px; margin: 1.5rem auto 0;">First-pass logistics analysis with visible assumptions and verify-before-share workflow for confident distribution decisions</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section>
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>How Data & Analysis Works</h2>
+                <p>AI generates initial analysis—you verify assumptions and approve before sharing</p>
+            </div>
+            
+            <div class="grid grid-3">
+                <div class="card slide-up" style="border-top: 4px solid #dc2626;">
+                    <div class="card-icon" style="background: #dc2626; color: white;">
+                        <i class="fas fa-link"></i>
+                    </div>
+                    <h3>Coordinate</h3>
+                    <p>AI pulls shipment data, inventory records, carrier invoices, and performance metrics to generate analysis drafts.</p>
+                </div>
+                <div class="card slide-up" style="border-top: 4px solid #b91c1c;">
+                    <div class="card-icon" style="background: #b91c1c; color: white;">
+                        <i class="fas fa-edit"></i>
+                    </div>
+                    <h3>Simplify</h3>
+                    <p>Get charts, trends, and insights in plain language with all assumptions clearly documented and visible.</p>
+                </div>
+                <div class="card slide-up" style="border-top: 4px solid #991b1b;">
+                    <div class="card-icon" style="background: #991b1b; color: white;">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Empower</h3>
+                    <p>Verify data sources, edit narrative, adjust formulas, and approve before sharing with stakeholders.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Supply Chain Example: Carrier Performance Analysis -->
+    <section style="background: #f7fafc;">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2><i class="fas fa-truck" style="color: #dc2626; margin-right: 0.5rem;"></i> Example: Monthly Carrier Performance Report</h2>
+                <p>See how AI creates first-pass analysis with full transparency on data and assumptions</p>
+            </div>
+            
+            <div class="grid grid-2">
+                <div class="card slide-up">
+                    <h3>AI-Generated Analysis</h3>
+                    <div style="background: #f7fafc; padding: 1.5rem; border-radius: 8px; margin-top: 1rem;">
+                        <h4 style="font-size: 1rem; margin-bottom: 1rem;">November Carrier Performance Draft</h4>
+                        <p style="font-size: 0.9rem; margin-bottom: 1rem;"><em>On-time delivery improved 8% month-over-month, with Carrier B showing strongest gains. Cost per shipment decreased 3.2% due to optimized routing...</em></p>
+                        
+                        <div style="background: #fff3cd; padding: 1rem; border-left: 3px solid #ffc107; border-radius: 4px; margin-top: 1rem;">
+                            <h5 style="font-size: 0.9rem; margin-bottom: 0.5rem;"><i class="fas fa-info-circle"></i> Assumptions Made:</h5>
+                            <ul style="font-size: 0.85rem; margin: 0; padding-left: 1.25rem;">
+                                <li>Excluded Thanksgiving week from averages</li>
+                                <li>Categorized deliveries within +2 hours as "on-time"</li>
+                                <li>Used November 2023 data for year-over-year comparison</li>
+                            </ul>
+                        </div>
+
+                        <div style="margin-top: 1rem; padding: 1rem; background: white; border: 1px solid #e2e8f0; border-radius: 4px;">
+                            <h5 style="font-size: 0.9rem; margin-bottom: 0.5rem;"><i class="fas fa-database"></i> Data Sources:</h5>
+                            <ul style="font-size: 0.85rem; margin: 0; padding-left: 1.25rem;">
+                                <li>TMS export (12/1/2024)</li>
+                                <li>Carrier tracking API data</li>
+                                <li>Freight invoice database</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card slide-up">
+                    <h3>Verify Before Sharing</h3>
+                    <div style="margin-top: 1rem;">
+                        <div style="background: #f0f9ff; border-left: 4px solid #dc2626; padding: 1rem; margin-bottom: 1rem; border-radius: 4px;">
+                            <h4 style="font-size: 1rem; margin-bottom: 0.5rem;">Pre-Share Checklist</h4>
+                            <div style="font-size: 0.9rem;">
+                                <label style="display: block; margin-bottom: 0.5rem;">
+                                    <input type="checkbox"> Verify data completeness (all carriers included)
+                                </label>
+                                <label style="display: block; margin-bottom: 0.5rem;">
+                                    <input type="checkbox"> Confirm assumption about holiday week exclusion
+                                </label>
+                                <label style="display: block; margin-bottom: 0.5rem;">
+                                    <input type="checkbox"> Review chart accuracy and labels
+                                </label>
+                                <label style="display: block; margin-bottom: 0.5rem;">
+                                    <input type="checkbox"> Edit executive summary narrative
+                                </label>
+                            </div>
+                        </div>
+
+                        <div style="background: #dcfce7; border: 1px solid #22c55e; padding: 1rem; border-radius: 6px; margin-top: 1.5rem;">
+                            <h4 style="font-size: 1rem; color: #166534; margin-bottom: 0.75rem;"><i class="fas fa-edit"></i> Full Editing Available</h4>
+                            <p style="font-size: 0.9rem; margin: 0;">Click any chart to edit data, update formulas, modify visualizations, or adjust narrative before finalizing.</p>
+                        </div>
+
+                        <div style="text-align: center; margin-top: 1.5rem;">
+                            <button class="btn btn-primary" style="width: 100%; background: #dc2626;">
+                                <i class="fas fa-check-circle"></i> Approve & Share Report
+                            </button>
+                            <p style="font-size: 0.85rem; color: #4a5568; margin-top: 0.5rem;">
+                                <i class="fas fa-history"></i> Rollback available if changes needed later
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="max-width: 800px; margin: 2rem auto 0;">
+                <div style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 1.5rem; border-radius: 8px;">
+                    <h4 style="color: #166534; margin-bottom: 1rem;"><i class="fas fa-chart-line"></i> Business Impact</h4>
+                    <div class="grid grid-3" style="gap: 1rem;">
+                        <div style="text-align: center;">
+                            <div style="font-size: 2rem; font-weight: bold; color: #166534;">4.5hrs</div>
+                            <div style="font-size: 0.9rem; color: #4a5568;">Saved per monthly report</div>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 2rem; font-weight: bold; color: #166534;">100%</div>
+                            <div style="font-size: 0.9rem; color: #4a5568;">Assumption transparency</div>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 2rem; font-weight: bold; color: #166534;">92%</div>
+                            <div style="font-size: 0.9rem; color: #4a5568;">Stakeholder confidence</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Capabilities Section -->
+    <section>
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Analysis Capabilities for Supply Chain & Distribution</h2>
+                <p>Generate insights and reports while maintaining complete data transparency</p>
+            </div>
+            
+            <div class="grid grid-2">
+                <div class="card slide-up">
+                    <h3><i class="fas fa-chart-line" style="color: #dc2626; margin-right: 0.5rem;"></i> Analysis Drafts</h3>
+                    <ul class="feature-list">
+                        <li><strong>Carrier Performance:</strong> On-time delivery rates, cost per shipment, damage claims, and transit time trends</li>
+                        <li><strong>Inventory Analysis:</strong> Turnover ratios, stockout frequency, carrying costs, and slow-moving SKU identification</li>
+                        <li><strong>Warehouse Productivity:</strong> Units per hour, order accuracy, space utilization, and labor efficiency</li>
+                        <li><strong>Cost Breakdowns:</strong> Transportation spend by lane, storage costs by SKU, total landed cost analysis</li>
+                        <li><strong>Visible Assumptions:</strong> Every calculation shows what assumptions were made and why</li>
+                    </ul>
+                </div>
+
+                <div class="card slide-up">
+                    <h3><i class="fas fa-calculator" style="color: #dc2626; margin-right: 0.5rem;"></i> Formula Recommendations</h3>
+                    <ul class="feature-list">
+                        <li><strong>Plain Language Explanations:</strong> "This formula calculates cost per mile by dividing total freight spend by miles traveled"</li>
+                        <li><strong>Preview Effects:</strong> See results before applying formula changes to your reports</li>
+                        <li><strong>Scenario Modeling:</strong> Test "what if" scenarios with different assumptions (e.g., 10% volume increase impact)</li>
+                        <li><strong>Error Detection:</strong> AI flags formulas that produce unexpected results for your review</li>
+                        <li><strong>Rollback Capability:</strong> Undo formula changes if results aren't what you expected</li>
+                    </ul>
+                </div>
+
+                <div class="card slide-up">
+                    <h3><i class="fas fa-chart-pie" style="color: #dc2626; margin-right: 0.5rem;"></i> Visualization Generation</h3>
+                    <ul class="feature-list">
+                        <li><strong>Auto Chart Selection:</strong> AI recommends best chart type for your data (bar, line, pie, heatmap)</li>
+                        <li><strong>Trend Highlighting:</strong> Automatically emphasize significant changes or outliers in visual form</li>
+                        <li><strong>Comparison Views:</strong> Side-by-side carrier performance, warehouse efficiency, or period-over-period trends</li>
+                        <li><strong>Editable Graphics:</strong> Modify colors, labels, scales, and data ranges before finalizing</li>
+                        <li><strong>Export Options:</strong> Download as PDF, PowerPoint, or Excel with all source data included</li>
+                    </ul>
+                </div>
+
+                <div class="card slide-up">
+                    <h3><i class="fas fa-exclamation-triangle" style="color: #dc2626; margin-right: 0.5rem;"></i> Transparent Assumptions</h3>
+                    <ul class="feature-list">
+                        <li><strong>Data Source Documentation:</strong> Every number traces back to specific database queries or file imports</li>
+                        <li><strong>Calculation Methods:</strong> Shows formulas used, rounding rules applied, and statistical methods employed</li>
+                        <li><strong>Time Period Clarity:</strong> Explicitly states date ranges, fiscal periods, and any excluded timeframes</li>
+                        <li><strong>Limitation Disclosure:</strong> Highlights incomplete data, missing information, or low confidence areas</li>
+                        <li><strong>Assumption Editing:</strong> Change any assumption and see updated analysis immediately</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Distribution-Specific Scenarios -->
+    <section style="background: #f7fafc;">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Common Supply Chain Analysis Needs</h2>
+                <p>Data & Analysis accelerates your critical business reporting</p>
+            </div>
+            
+            <div class="grid grid-3">
+                <div class="card slide-up" style="border-top: 3px solid #dc2626;">
+                    <h4 style="color: #dc2626;"><i class="fas fa-coins"></i> Freight Spend Analysis</h4>
+                    <p style="font-size: 0.9rem;">Monthly breakdowns of transportation costs by carrier, lane, service level, and accessorial charges. Identifies cost reduction opportunities and carrier negotiation leverage points.</p>
+                    <p style="font-size: 0.85rem; color: #4a5568; margin-top: 1rem;"><strong>Impact:</strong> Average 12% cost reduction from insights</p>
+                </div>
+
+                <div class="card slide-up" style="border-top: 3px solid #dc2626;">
+                    <h4 style="color: #dc2626;"><i class="fas fa-box-open"></i> Inventory Health Reports</h4>
+                    <p style="font-size: 0.9rem;">Turnover analysis, slow-moving stock identification, stockout risk assessment, and optimal reorder point recommendations based on historical patterns and seasonality.</p>
+                    <p style="font-size: 0.85rem; color: #4a5568; margin-top: 1rem;"><strong>Impact:</strong> 23% reduction in excess inventory carrying costs</p>
+                </div>
+
+                <div class="card slide-up" style="border-top: 3px solid #dc2626;">
+                    <h4 style="color: #dc2626;"><i class="fas fa-stopwatch"></i> Fulfillment Speed Metrics</h4>
+                    <p style="font-size: 0.9rem;">Order-to-ship time analysis, peak vs. normal period comparisons, bottleneck identification, and customer service level achievement tracking with drill-down capability.</p>
+                    <p style="font-size: 0.85rem; color: #4a5568; margin-top: 1rem;"><strong>Impact:</strong> 18% improvement in order processing speed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Control & Transparency -->
+    <section>
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Your Control Points</h2>
+                <p>Data & Analysis keeps you in command at every step</p>
+            </div>
+            
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="card slide-up">
+                    <div class="grid grid-2" style="gap: 2rem;">
+                        <div>
+                            <h4 style="color: #dc2626; margin-bottom: 1rem;">What You Control</h4>
+                            <ul class="feature-list">
+                                <li>Verify all data sources and assumptions</li>
+                                <li>Edit any formula or calculation</li>
+                                <li>Modify chart types and visualizations</li>
+                                <li>Adjust narrative and executive summary</li>
+                                <li>Approve before sharing with stakeholders</li>
+                                <li>Rollback or update published reports</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 style="color: #991b1b; margin-bottom: 1rem;">What AI Never Does</h4>
+                            <ul class="feature-list">
+                                <li>Share analysis without your approval</li>
+                                <li>Hide assumptions or data limitations</li>
+                                <li>Make business decisions based on data</li>
+                                <li>Fabricate numbers to fill gaps</li>
+                                <li>Override your formula corrections</li>
+                                <li>Publish reports you haven't reviewed</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section style="background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%); color: white;">
+        <div class="container">
+            <div style="text-align: center;">
+                <h2 style="color: white; margin-bottom: 1rem;">Make Data-Driven Decisions with Confidence</h2>
+                <p style="font-size: 1.25rem; margin-bottom: 2rem; color: #e2e8f0;">Get analysis faster with complete transparency.</p>
+                <a href="contact.html" class="btn" style="background: white; color: #dc2626; margin-right: 1rem;">
+                    <i class="fas fa-rocket"></i>
+                    Get Started Today
+                </a>
+                <a href="services.html" class="btn" style="background: transparent; color: white; border: 2px solid white;">
+                    <i class="fas fa-th"></i>
+                    View All Services
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Nanny-AI</h4>
+                    <p>Your intelligent business orchestrator that humanizes AI to coordinate work seamlessly—keeping you in control.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <a href="service-communication.html">Communication</a><br>
+                    <a href="service-meetings.html">Meetings & Scheduling</a><br>
+                    <a href="service-research.html">Research & Knowledge</a><br>
+                    <a href="service-workflow.html">Task & Workflow</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <a href="about.html">About</a><br>
+                    <a href="industries.html">Industries</a><br>
+                    <a href="use-cases.html">Use Cases</a><br>
+                    <a href="resources.html">Resources</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Get Started</h4>
+                    <a href="contact.html">Contact Us</a><br>
+                    <p style="margin-top: 1rem; font-size: 0.9rem;">Chicago, IL</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Nanny-AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

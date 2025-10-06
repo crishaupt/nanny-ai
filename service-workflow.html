@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task & Workflow | Nanny-AI</title>
+    <meta name="description" content="Detect patterns and propose lightweight automations for supply chain workflows with human-in-the-loop approval gates.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <i class="fas fa-hands-helping"></i>
+                    Nanny-AI
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="services.html" class="nav-link active">Services</a></li>
+                    <li><a href="use-cases.html" class="nav-link">Use Cases</a></li>
+                    <li><a href="industries.html" class="nav-link">Industries</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="resources.html" class="nav-link">Resources</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="contact.html" class="btn btn-primary">Get Started</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1><i class="fas fa-tasks" style="color: #7c3aed; margin-right: 1rem;"></i>Task & Workflow</h1>
+                <p style="font-size: 1.25rem; max-width: 900px; margin: 1.5rem auto 0;">Detect repetitive supply chain tasks and propose lightweight automations—with human approval gates at every step</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section>
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>How Task & Workflow Works</h2>
+                <p>AI identifies automation opportunities—you approve, test, and control when they run</p>
+            </div>
+            
+            <div class="grid grid-3">
+                <div class="card slide-up" style="border-top: 4px solid #7c3aed;">
+                    <div class="card-icon" style="background: #7c3aed; color: white;">
+                        <i class="fas fa-link"></i>
+                    </div>
+                    <h3>Coordinate</h3>
+                    <p>AI detects repetitive patterns in your order processing, inventory updates, and carrier coordination workflows.</p>
+                </div>
+                <div class="card slide-up" style="border-top: 4px solid #6b21a8;">
+                    <div class="card-icon" style="background: #6b21a8; color: white;">
+                        <i class="fas fa-edit"></i>
+                    </div>
+                    <h3>Simplify</h3>
+                    <p>Proposes simple automations explained in plain language—no technical setup or coding required from you.</p>
+                </div>
+                <div class="card slide-up" style="border-top: 4px solid #581c87;">
+                    <div class="card-icon" style="background: #581c87; color: white;">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Empower</h3>
+                    <p>Review each automation step, approve execution, disable anytime, and maintain full audit trail of all actions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Supply Chain Example: Order Status Updates -->
+    <section style="background: #f7fafc;">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2><i class="fas fa-robot" style="color: #7c3aed; margin-right: 0.5rem;"></i> Example: Automated Order Status Updates</h2>
+                <p>See how AI detects repetitive work and proposes automation you control</p>
+            </div>
+            
+            <div style="max-width: 1000px; margin: 0 auto;">
+                <div class="card slide-up">
+                    <div style="background: linear-gradient(135deg, #7c3aed 0%, #6b21a8 100%); color: white; padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem;">
+                        <h3 style="color: white; margin-bottom: 1rem;"><i class="fas fa-lightbulb"></i> AI Detection</h3>
+                        <p>"I've noticed you manually update customer order status after receiving carrier tracking updates 8-12 times daily. I can help automate this with your approval at each step."</p>
+                    </div>
+
+                    <h4 style="margin-bottom: 1rem;">Proposed Automation Workflow:</h4>
+                    
+                    <div style="display: flex; flex-direction: column; gap: 1rem; margin-bottom: 2rem;">
+                        <div style="background: white; border: 1px solid #e2e8f0; border-left: 4px solid #48bb78; padding: 1rem; border-radius: 6px;">
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <div>
+                                    <strong>1. Monitor carrier tracking systems</strong>
+                                    <p style="font-size: 0.9rem; color: #4a5568; margin: 0.5rem 0 0 0;">Check for status changes every 30 minutes</p>
+                                </div>
+                                <span style="background: #48bb78; color: white; padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.85rem;">Auto</span>
+                            </div>
+                        </div>
+
+                        <div style="background: white; border: 1px solid #e2e8f0; border-left: 4px solid #f59e0b; padding: 1rem; border-radius: 6px;">
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <div>
+                                    <strong>2. Match tracking updates to customer orders</strong>
+                                    <p style="font-size: 0.9rem; color: #4a5568; margin: 0.5rem 0 0 0;">Link carrier updates to order numbers in system</p>
+                                </div>
+                                <span style="background: #f59e0b; color: white; padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.85rem;">Review</span>
+                            </div>
+                        </div>
+
+                        <div style="background: white; border: 1px solid #e2e8f0; border-left: 4px solid #7c3aed; padding: 1rem; border-radius: 6px;">
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <div>
+                                    <strong>3. Propose order status changes</strong>
+                                    <p style="font-size: 0.9rem; color: #4a5568; margin: 0.5rem 0 0 0;">Suggest updating "In Transit" to "Out for Delivery"</p>
+                                </div>
+                                <span style="background: #7c3aed; color: white; padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.85rem;">Your Review</span>
+                            </div>
+                        </div>
+
+                        <div style="background: white; border: 1px solid #e2e8f0; border-left: 4px solid #ef4444; padding: 1rem; border-radius: 6px;">
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <div>
+                                    <strong>4. Apply updates to order management system</strong>
+                                    <p style="font-size: 0.9rem; color: #4a5568; margin: 0.5rem 0 0 0;">Execute changes only after your approval</p>
+                                </div>
+                                <span style="background: #ef4444; color: white; padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.85rem;">Approval Gate</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="background: #f0f9ff; border: 2px solid #7c3aed; padding: 1.5rem; border-radius: 8px;">
+                        <h4 style="color: #7c3aed; margin-bottom: 1rem;"><i class="fas fa-shield-alt"></i> Your Control Points</h4>
+                        <div class="grid grid-2" style="gap: 1.5rem;">
+                            <ul class="feature-list">
+                                <li>Review all proposed status changes</li>
+                                <li>Approve batch or individual updates</li>
+                                <li>Set exceptions for priority customers</li>
+                                <li>Pause automation anytime</li>
+                            </ul>
+                            <ul class="feature-list">
+                                <li>View full audit trail of changes</li>
+                                <li>Rollback incorrect updates</li>
+                                <li>Adjust automation rules</li>
+                                <li>Disable permanently if needed</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="max-width: 800px; margin: 2rem auto 0;">
+                <div style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 1.5rem; border-radius: 8px;">
+                    <h4 style="color: #166534; margin-bottom: 1rem;"><i class="fas fa-chart-line"></i> Business Impact</h4>
+                    <div class="grid grid-3" style="gap: 1rem;">
+                        <div style="text-align: center;">
+                            <div style="font-size: 2rem; font-weight: bold; color: #166534;">8.5hrs</div>
+                            <div style="font-size: 0.9rem; color: #4a5568;">Saved per week</div>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 2rem; font-weight: bold; color: #166534;">96%</div>
+                            <div style="font-size: 0.9rem; color: #4a5568;">Accuracy maintained</div>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 2rem; font-weight: bold; color: #166534;">100%</div>
+                            <div style="font-size: 0.9rem; color: #4a5568;">Audit trail compliance</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Capabilities Section -->
+    <section>
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Workflow Capabilities for Supply Chain & Distribution</h2>
+                <p>Automate repetitive tasks while maintaining complete human oversight</p>
+            </div>
+            
+            <div class="grid grid-2">
+                <div class="card slide-up">
+                    <h3><i class="fas fa-robot" style="color: #7c3aed; margin-right: 0.5rem;"></i> Smart Automations</h3>
+                    <ul class="feature-list">
+                        <li><strong>Pattern Detection:</strong> AI identifies repetitive tasks like daily inventory checks or weekly carrier reporting</li>
+                        <li><strong>Automation Proposals:</strong> Get step-by-step workflows explained in plain language before enabling</li>
+                        <li><strong>Approval Prompts:</strong> Set when you want to approve: every time, daily summary, or weekly review</li>
+                        <li><strong>Exception Handling:</strong> AI requests your input when situations don't match normal patterns</li>
+                        <li><strong>You Control Runtime:</strong> Decide when automations run and pause them anytime</li>
+                    </ul>
+                </div>
+
+                <div class="card slide-up">
+                    <h3><i class="fas fa-database" style="color: #7c3aed; margin-right: 0.5rem;"></i> System Updates</h3>
+                    <ul class="feature-list">
+                        <li><strong>Order Management:</strong> Auto-update order status, shipping info, and delivery confirmations from carrier feeds</li>
+                        <li><strong>Inventory Systems:</strong> Propose stock level adjustments based on received shipments and cycle counts</li>
+                        <li><strong>Customer Records:</strong> Extract delivery preferences, address changes, and contact updates from emails</li>
+                        <li><strong>Supplier Data:</strong> Update lead times, minimum order quantities, and pricing from supplier notifications</li>
+                        <li><strong>No Auto-Commits:</strong> All database changes require your review and approval</li>
+                    </ul>
+                </div>
+
+                <div class="card slide-up">
+                    <h3><i class="fas fa-route" style="color: #7c3aed; margin-right: 0.5rem;"></i> Adaptive Guidance</h3>
+                    <ul class="feature-list">
+                        <li><strong>Dynamic Checklists:</strong> Get task lists that adapt based on order type, customer priority, or shipment urgency</li>
+                        <li><strong>Next Best Step:</strong> AI suggests the most efficient next action based on current workload and deadlines</li>
+                        <li><strong>Bottleneck Alerts:</strong> Get notified when workflows slow down with suggestions to resolve</li>
+                        <li><strong>Progress Tracking:</strong> See real-time status of multi-step processes like returns or quality holds</li>
+                        <li><strong>Your Autonomy:</strong> Guidance is optional—ignore suggestions and work your way anytime</li>
+                    </ul>
+                </div>
+
+                <div class="card slide-up">
+                    <h3><i class="fas fa-clipboard-check" style="color: #7c3aed; margin-right: 0.5rem;"></i> Quality Gates</h3>
+                    <ul class="feature-list">
+                        <li><strong>Pre-Execution Review:</strong> See exactly what will happen before any automation runs</li>
+                        <li><strong>Batch Approval:</strong> Review and approve multiple similar actions at once</li>
+                        <li><strong>Exception Flags:</strong> Unusual cases automatically flagged for manual review</li>
+                        <li><strong>Rollback Capability:</strong> Undo automated changes if something unexpected happens</li>
+                        <li><strong>Audit Trails:</strong> Complete history of who approved what and when for compliance</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Distribution-Specific Scenarios -->
+    <section style="background: #f7fafc;">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Common Workflow Automations</h2>
+                <p>Real repetitive tasks where automation saves hours while maintaining control</p>
+            </div>
+            
+            <div class="grid grid-3">
+                <div class="card slide-up" style="border-top: 3px solid #7c3aed;">
+                    <h4 style="color: #7c3aed;"><i class="fas fa-box"></i> Receiving Workflows</h4>
+                    <p style="font-size: 0.9rem;">Automate PO matching, packing slip verification, and inventory system updates when shipments arrive. AI flags discrepancies for your review.</p>
+                    <p style="font-size: 0.85rem; color: #4a5568; margin-top: 1rem;"><strong>Impact:</strong> 45 minutes saved per receiving session</p>
+                </div>
+
+                <div class="card slide-up" style="border-top: 3px solid #7c3aed;">
+                    <h4 style="color: #7c3aed;"><i class="fas fa-undo"></i> Returns Processing</h4>
+                    <p style="font-size: 0.9rem;">Coordinate RMA creation, carrier pickup scheduling, refund processing, and restocking decisions. You approve high-value returns before processing.</p>
+                    <p style="font-size: 0.85rem; color: #4a5568; margin-top: 1rem;"><strong>Impact:</strong> 67% faster returns processing with full tracking</p>
+                </div>
+
+                <div class="card slide-up" style="border-top: 3px solid #7c3aed;">
+                    <h4 style="color: #7c3aed;"><i class="fas fa-file-invoice"></i> Invoice Matching</h4>
+                    <p style="font-size: 0.9rem;">Match carrier invoices to shipments, flag billing errors, and prepare payment approvals. Discrepancies >$100 automatically escalated for review.</p>
+                    <p style="font-size: 0.85rem; color: #4a5568; margin-top: 1rem;"><strong>Impact:</strong> 89% reduction in duplicate payments</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Control & Transparency -->
+    <section>
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Your Control Points</h2>
+                <p>Task & Workflow keeps you in command at every step</p>
+            </div>
+            
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="card slide-up">
+                    <div class="grid grid-2" style="gap: 2rem;">
+                        <div>
+                            <h4 style="color: #7c3aed; margin-bottom: 1rem;">What You Control</h4>
+                            <ul class="feature-list">
+                                <li>Approve each proposed automation</li>
+                                <li>Set approval frequency (every time, daily, weekly)</li>
+                                <li>Define exception rules for manual review</li>
+                                <li>Pause or disable automations anytime</li>
+                                <li>Review full audit trail of all actions</li>
+                                <li>Rollback automated changes if needed</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 style="color: #dc2626; margin-bottom: 1rem;">What AI Never Does</h4>
+                            <ul class="feature-list">
+                                <li>Commit database changes without approval</li>
+                                <li>Execute financial transactions automatically</li>
+                                <li>Make high-stakes decisions independently</li>
+                                <li>Override your exception rules</li>
+                                <li>Hide automation actions from audit trail</li>
+                                <li>Continue running if you disable it</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section style="background: linear-gradient(135deg, #7c3aed 0%, #6b21a8 100%); color: white;">
+        <div class="container">
+            <div style="text-align: center;">
+                <h2 style="color: white; margin-bottom: 1rem;">Automate Repetitive Work Safely</h2>
+                <p style="font-size: 1.25rem; margin-bottom: 2rem; color: #e2e8f0;">Save time on routine tasks while keeping full control.</p>
+                <a href="contact.html" class="btn" style="background: white; color: #7c3aed; margin-right: 1rem;">
+                    <i class="fas fa-rocket"></i>
+                    Get Started Today
+                </a>
+                <a href="services.html" class="btn" style="background: transparent; color: white; border: 2px solid white;">
+                    <i class="fas fa-th"></i>
+                    View All Services
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Nanny-AI</h4>
+                    <p>Your intelligent business orchestrator that humanizes AI to coordinate work seamlessly—keeping you in control.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <a href="service-communication.html">Communication</a><br>
+                    <a href="service-meetings.html">Meetings & Scheduling</a><br>
+                    <a href="service-research.html">Research & Knowledge</a><br>
+                    <a href="service-workflow.html">Task & Workflow</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <a href="about.html">About</a><br>
+                    <a href="industries.html">Industries</a><br>
+                    <a href="use-cases.html">Use Cases</a><br>
+                    <a href="resources.html">Resources</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Get Started</h4>
+                    <a href="contact.html">Contact Us</a><br>
+                    <p style="margin-top: 1rem; font-size: 0.9rem;">Chicago, IL</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Nanny-AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

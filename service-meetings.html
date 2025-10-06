@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meetings & Scheduling | Nanny-AI</title>
+    <meta name="description" content="Propose agendas, capture decisions, and prepare follow-ups for supply chain meetings—with review gates before distribution.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <i class="fas fa-hands-helping"></i>
+                    Nanny-AI
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="services.html" class="nav-link active">Services</a></li>
+                    <li><a href="use-cases.html" class="nav-link">Use Cases</a></li>
+                    <li><a href="industries.html" class="nav-link">Industries</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="resources.html" class="nav-link">Resources</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="contact.html" class="btn btn-primary">Get Started</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1><i class="fas fa-calendar-alt" style="color: #2c5282; margin-right: 1rem;"></i>Meetings & Scheduling</h1>
+                <p style="font-size: 1.25rem; max-width: 900px; margin: 1.5rem auto 0;">Coordinate supplier meetings, carrier check-ins, and distribution planning sessions—capturing decisions and next steps with human review before distribution</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section>
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>How Meetings & Scheduling Works</h2>
+                <p>AI orchestrates meeting coordination—you approve agendas, review notes, and control distribution</p>
+            </div>
+            
+            <div class="grid grid-3">
+                <div class="card slide-up" style="border-top: 4px solid #2c5282;">
+                    <div class="card-icon" style="background: #2c5282; color: white;">
+                        <i class="fas fa-link"></i>
+                    </div>
+                    <h3>Coordinate</h3>
+                    <p>AI pulls recent shipment issues, carrier performance data, and pending decisions to propose relevant agenda items.</p>
+                </div>
+                <div class="card slide-up" style="border-top: 4px solid #1e3a5f;">
+                    <div class="card-icon" style="background: #1e3a5f; color: white;">
+                        <i class="fas fa-edit"></i>
+                    </div>
+                    <h3>Simplify</h3>
+                    <p>During meetings, AI captures key decisions, action items, and deadlines in plain language—no manual note-taking.</p>
+                </div>
+                <div class="card slide-up" style="border-top: 4px solid #0f1e3d;">
+                    <div class="card-icon" style="background: #0f1e3d; color: white;">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Empower</h3>
+                    <p>Review complete notes, edit details, verify action items, and approve before anything is distributed to attendees.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Supply Chain Example: Weekly Logistics Review -->
+    <section style="background: #f7fafc;">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2><i class="fas fa-clipboard-list" style="color: #2c5282; margin-right: 0.5rem;"></i> Example: Weekly Logistics Review Meeting</h2>
+                <p>See how Nanny-AI coordinates your weekly operations review from agenda to follow-up</p>
+            </div>
+            
+            <div class="grid grid-3">
+                <div class="card slide-up" style="border-left: 4px solid #2c5282;">
+                    <div style="background: #2c5282; color: white; padding: 0.5rem 1rem; border-radius: 6px; display: inline-block; margin-bottom: 1rem; font-weight: 600;">Step 1: Coordinate</div>
+                    <h3>AI Proposes Agenda</h3>
+                    <p style="background: #f7fafc; padding: 1rem; border-radius: 8px; margin-top: 1rem; font-size: 0.9rem;">
+                        <strong>Suggested Topics:</strong><br><br>
+                        1. Carrier performance review (2 delayed shipments)<br>
+                        2. Q4 inventory positioning (3 warehouses)<br>
+                        3. Supplier lead time changes (ACME Corp)<br>
+                        4. Customer expedite requests (5 pending)<br>
+                        5. Route optimization results
+                    </p>
+                    <p style="margin-top: 1rem; font-size: 0.9rem; color: #4a5568;"><strong>Context-aware:</strong> Based on last week's issues and upcoming deadlines</p>
+                </div>
+
+                <div class="card slide-up" style="border-left: 4px solid #1e3a5f;">
+                    <div style="background: #1e3a5f; color: white; padding: 0.5rem 1rem; border-radius: 6px; display: inline-block; margin-bottom: 1rem; font-weight: 600;">Step 2: Simplify</div>
+                    <h3>Live Note Capture</h3>
+                    <div style="background: white; border: 2px solid #2c5282; padding: 1rem; border-radius: 8px; margin-top: 1rem; font-size: 0.9rem;">
+                        <strong>Captured During Meeting:</strong><br><br>
+                        <strong>Decision:</strong> Switch to Carrier B for West Coast routes starting 1/15<br><br>
+                        <strong>Action:</strong> Sarah - Contact ACME about new 14-day lead time (Due: 12/10)<br><br>
+                        <strong>Follow-up:</strong> Review carrier B performance in 30 days
+                    </div>
+                    <p style="margin-top: 1rem; font-size: 0.9rem; color: #4a5568;"><strong>No manual typing:</strong> AI captures while you focus on discussion</p>
+                </div>
+
+                <div class="card slide-up" style="border-left: 4px solid #0f1e3d;">
+                    <div style="background: #0f1e3d; color: white; padding: 0.5rem 1rem; border-radius: 6px; display: inline-block; margin-bottom: 1rem; font-weight: 600;">Step 3: Empower</div>
+                    <h3>Review Before Sharing</h3>
+                    <p style="background: #f7fafc; padding: 1rem; border-radius: 8px; margin-top: 1rem; font-size: 0.9rem;">
+                        <strong>Post-Meeting Checklist:</strong><br><br>
+                        ☐ Verify 3 decisions captured correctly<br>
+                        ☐ Confirm 7 action item owners and dates<br>
+                        ☐ Edit any unclear discussion points<br>
+                        ☐ Approve distribution to 8 attendees<br><br>
+                        <em>Nothing sends until you click "Distribute Notes"</em>
+                    </p>
+                    <p style="margin-top: 1rem; font-size: 0.9rem; color: #4a5568;"><strong>Your approval required:</strong> Review and confirm before team sees notes</p>
+                </div>
+            </div>
+
+            <div style="max-width: 800px; margin: 2rem auto 0;">
+                <div style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 1.5rem; border-radius: 8px;">
+                    <h4 style="color: #166534; margin-bottom: 1rem;"><i class="fas fa-chart-line"></i> Business Impact</h4>
+                    <div class="grid grid-3" style="gap: 1rem;">
+                        <div style="text-align: center;">
+                            <div style="font-size: 2rem; font-weight: bold; color: #166534;">3.5hrs</div>
+                            <div style="font-size: 0.9rem; color: #4a5568;">Saved per week on notes</div>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 2rem; font-weight: bold; color: #166534;">94%</div>
+                            <div style="font-size: 0.9rem; color: #4a5568;">Action item completion rate</div>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 2rem; font-weight: bold; color: #166534;">100%</div>
+                            <div style="font-size: 0.9rem; color: #4a5568;">Accountability tracking</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Capabilities Section -->
+    <section>
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Meeting Capabilities for Supply Chain & Distribution</h2>
+                <p>Everything you need to coordinate effective logistics and operations meetings</p>
+            </div>
+            
+            <div class="grid grid-2">
+                <div class="card slide-up">
+                    <h3><i class="fas fa-list-ul" style="color: #2c5282; margin-right: 0.5rem;"></i> Agenda Proposals</h3>
+                    <ul class="feature-list">
+                        <li><strong>Context-Aware:</strong> Suggest topics based on recent shipment delays, inventory alerts, and pending decisions</li>
+                        <li><strong>Priority Ranking:</strong> Order agenda items by urgency and business impact</li>
+                        <li><strong>Relevant Data:</strong> Attach shipment reports, carrier performance metrics, or inventory snapshots</li>
+                        <li><strong>Time Allocation:</strong> Propose realistic time slots for each discussion topic</li>
+                        <li><strong>You Approve:</strong> Edit, add, remove, or reorder items before sending invites</li>
+                    </ul>
+                </div>
+
+                <div class="card slide-up">
+                    <h3><i class="fas fa-clipboard" style="color: #2c5282; margin-right: 0.5rem;"></i> Live Note Capture</h3>
+                    <ul class="feature-list">
+                        <li><strong>Decision Tracking:</strong> Automatically identify and highlight key decisions made during discussion</li>
+                        <li><strong>Action Items:</strong> Capture who's responsible, what needs done, and when it's due</li>
+                        <li><strong>Follow-Up Items:</strong> Note topics that need future meetings or additional research</li>
+                        <li><strong>Key Points:</strong> Summarize important discussion points without recording word-for-word</li>
+                        <li><strong>Post-Meeting Review:</strong> Edit and refine notes before distribution</li>
+                    </ul>
+                </div>
+
+                <div class="card slide-up">
+                    <h3><i class="fas fa-tasks" style="color: #2c5282; margin-right: 0.5rem;"></i> Follow-Up Drafts</h3>
+                    <ul class="feature-list">
+                        <li><strong>Task Creation:</strong> Convert action items into project management tasks with one click</li>
+                        <li><strong>Owner Notifications:</strong> Draft individual follow-up emails to action item owners</li>
+                        <li><strong>Deadline Reminders:</strong> Set up automatic reminders for approaching due dates</li>
+                        <li><strong>Progress Tracking:</strong> Prepare next meeting agenda based on completed/pending items</li>
+                        <li><strong>Approval Required:</strong> Review all follow-ups before they're created or sent</li>
+                    </ul>
+                </div>
+
+                <div class="card slide-up">
+                    <h3><i class="fas fa-calendar-check" style="color: #2c5282; margin-right: 0.5rem;"></i> Smart Scheduling</h3>
+                    <ul class="feature-list">
+                        <li><strong>Calendar Analysis:</strong> Find times when all required attendees are available</li>
+                        <li><strong>Timezone Coordination:</strong> Account for warehouse locations across different time zones</li>
+                        <li><strong>Recurring Patterns:</strong> Suggest consistent weekly/monthly slots for operations reviews</li>
+                        <li><strong>Buffer Time:</strong> Automatically include prep time before and wrap-up time after</li>
+                        <li><strong>You Choose:</strong> Select from suggested times or manually pick your preferred slot</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Distribution-Specific Scenarios -->
+    <section style="background: #f7fafc;">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Common Supply Chain Meeting Types</h2>
+                <p>Meetings & Scheduling streamlines your most important logistics conversations</p>
+            </div>
+            
+            <div class="grid grid-3">
+                <div class="card slide-up" style="border-top: 3px solid #2c5282;">
+                    <h4 style="color: #2c5282;"><i class="fas fa-handshake"></i> Supplier QBRs</h4>
+                    <p style="font-size: 0.9rem;">Quarterly business reviews with suppliers: AI proposes agenda based on delivery performance, quality metrics, and pricing discussions. Captures agreements and next quarter commitments.</p>
+                    <p style="font-size: 0.85rem; color: #4a5568; margin-top: 1rem;"><strong>Impact:</strong> 100% follow-through on supplier commitments</p>
+                </div>
+
+                <div class="card slide-up" style="border-top: 3px solid #2c5282;">
+                    <h4 style="color: #2c5282;"><i class="fas fa-truck-loading"></i> Warehouse Standups</h4>
+                    <p style="font-size: 0.9rem;">Daily operations standups: Capture overnight shipment issues, staffing updates, equipment problems, and priority changes. Distribute notes to day and night shift leads.</p>
+                    <p style="font-size: 0.85rem; color: #4a5568; margin-top: 1rem;"><strong>Impact:</strong> 2.8hrs saved weekly on standup coordination</p>
+                </div>
+
+                <div class="card slide-up" style="border-top: 3px solid #2c5282;">
+                    <h4 style="color: #2c5282;"><i class="fas fa-route"></i> Carrier Reviews</h4>
+                    <p style="font-size: 0.9rem;">Monthly carrier performance reviews: Agenda includes on-time delivery rates, damage claims, and cost trends. Captures service level agreement adjustments and rate negotiations.</p>
+                    <p style="font-size: 0.85rem; color: #4a5568; margin-top: 1rem;"><strong>Impact:</strong> 23% improvement in carrier accountability</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Control & Transparency -->
+    <section>
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Your Control Points</h2>
+                <p>Meetings & Scheduling keeps you in command at every step</p>
+            </div>
+            
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="card slide-up">
+                    <div class="grid grid-2" style="gap: 2rem;">
+                        <div>
+                            <h4 style="color: #2c5282; margin-bottom: 1rem;">What You Control</h4>
+                            <ul class="feature-list">
+                                <li>Approve or edit proposed agendas</li>
+                                <li>Review and refine captured notes</li>
+                                <li>Verify action item assignments</li>
+                                <li>Choose when to distribute notes</li>
+                                <li>Select meeting times from suggestions</li>
+                                <li>Edit any auto-captured content</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 style="color: #dc2626; margin-bottom: 1rem;">What AI Never Does</h4>
+                            <ul class="feature-list">
+                                <li>Schedule meetings without your approval</li>
+                                <li>Distribute notes before you review</li>
+                                <li>Commit to deadlines on your behalf</li>
+                                <li>Record conversations without permission</li>
+                                <li>Share sensitive discussion points automatically</li>
+                                <li>Create tasks without your confirmation</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section style="background: linear-gradient(135deg, #2c5282 0%, #1e3a5f 100%); color: white;">
+        <div class="container">
+            <div style="text-align: center;">
+                <h2 style="color: white; margin-bottom: 1rem;">Make Every Meeting More Productive</h2>
+                <p style="font-size: 1.25rem; margin-bottom: 2rem; color: #e2e8f0;">Coordinate better meetings while maintaining complete control.</p>
+                <a href="contact.html" class="btn" style="background: white; color: #2c5282; margin-right: 1rem;">
+                    <i class="fas fa-rocket"></i>
+                    Get Started Today
+                </a>
+                <a href="services.html" class="btn" style="background: transparent; color: white; border: 2px solid white;">
+                    <i class="fas fa-th"></i>
+                    View All Services
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Nanny-AI</h4>
+                    <p>Your intelligent business orchestrator that humanizes AI to coordinate work seamlessly—keeping you in control.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <a href="service-communication.html">Communication</a><br>
+                    <a href="service-meetings.html">Meetings & Scheduling</a><br>
+                    <a href="service-research.html">Research & Knowledge</a><br>
+                    <a href="service-workflow.html">Task & Workflow</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <a href="about.html">About</a><br>
+                    <a href="industries.html">Industries</a><br>
+                    <a href="use-cases.html">Use Cases</a><br>
+                    <a href="resources.html">Resources</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Get Started</h4>
+                    <a href="contact.html">Contact Us</a><br>
+                    <p style="margin-top: 1rem; font-size: 0.9rem;">Chicago, IL</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Nanny-AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
