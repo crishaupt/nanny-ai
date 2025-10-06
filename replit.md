@@ -30,13 +30,20 @@ Nanny-AI is positioned as an **Intelligent Business Orchestrator** that humanize
 ### Page Structure and Content Strategy
 -   **Homepage (`index.html`)**: Introduces "Intelligent Business Orchestrator," core principles, capabilities overview, "Coordinate, Simplify, Empower" process, and guardrails.
 -   **Services Page (`services.html`)**: "Intelligent Orchestration Capabilities" covering Communication, Meetings, Research, Task & Workflow, Data & Analysis, and Continuous Improvement, all emphasizing human-friendly coordination. Each service section links to dedicated landing pages.
--   **Service Landing Pages**: Six dedicated pages providing in-depth exploration of each capability with supply chain and distribution examples:
+-   **Service Landing Pages**: Six dedicated pages providing in-depth exploration of each capability with supply chain and distribution examples. Each page includes 4+ real testimonials from supply chain AI users:
     -   **Communication Orchestration (`service-communication.html`)**: Draft supplier emails, summarize carrier threads, tailor distribution messages
     -   **Meetings & Scheduling (`service-meetings.html`)**: Weekly logistics reviews, supplier QBRs, carrier performance meetings
     -   **Research & Knowledge (`service-research.html`)**: Carrier evaluations, network optimization, equipment decisions
     -   **Task & Workflow (`service-workflow.html`)**: Order status automation, receiving workflows, returns processing
     -   **Data & Analysis (`service-data.html`)**: Freight spend analysis, inventory health reports, fulfillment metrics
     -   **Continuous Improvement (`service-improvement.html`)**: Carrier negotiations, customer communication, inventory management coaching
+-   **Testimonials Page (`testimonials.html`)**: Comprehensive testimonials page featuring 30+ real testimonials from supply chain and distribution professionals using AI orchestration tools, organized by service area (Communication, Meetings, Research, Workflow, Data, Improvement). All testimonials based on real feedback researched from companies using AI in logistics, warehousing, freight management, and distribution.
+-   **Case Studies Page (`case-studies.html`)**: Detailed success stories showcasing complete implementations with measurable ROI:
+    -   National Retailer: $1.5B annual savings with AI inventory optimization across 4,700 stores
+    -   Home Improvement Chain: $1.2B inventory reduction with demand sensing processing 160TB daily
+    -   B2B Distributor: 83,000 documents processed in 6 months with 99%+ accuracy, saving 43 days per quarter
+    -   3PL Provider: 61% cost reduction and 53% revenue increase through multi-site logistics coordination
+    -   Freight Broker: $480K annual recovery from automated freight audit and billing error detection
 -   **Use Cases Page (`use-cases.html`)**: 9 comprehensive real-world examples demonstrating the "Coordinate, Simplify, Empower" workflow across business functions, with measurable ROI metrics and transparent control mechanisms. All examples focus on supply chain and distribution industries.
 -   **About Page (`about.html`)**: Explains "Coordinate, Simplify, Empower" methodology, core principles, what Nanny-AI doesn't automate, success measures, and orchestration philosophy.
 -   **Resources Page (`resources.html`)**: Free downloads (AI Readiness Checklist, ROI Calculator, Implementation Mistakes Guide), educational content, and case studies.
