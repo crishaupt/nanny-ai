@@ -29,11 +29,31 @@ Nanny-AI is positioned as an **Intelligent Business Orchestrator** that humanize
 ### Page Structure and Content Strategy
 -   **Homepage (`index.html`)**: Introduces "Intelligent Business Orchestrator," core principles, capabilities overview, "Coordinate, Simplify, Empower" process, and guardrails.
 -   **Services Page (`services.html`)**: "Intelligent Orchestration Capabilities" covering Communication, Meetings, Research, Task & Workflow, Data & Analysis, and Continuous Improvement, all emphasizing human-friendly coordination.
--   **Use Cases Page (`use-cases.html`)**: Real-world examples demonstrating the "Coordinate, Simplify, Empower" workflow.
+-   **Use Cases Page (`use-cases.html`)**: 9 comprehensive real-world examples demonstrating the "Coordinate, Simplify, Empower" workflow across business functions, with measurable ROI metrics and transparent control mechanisms.
 -   **About Page (`about.html`)**: Explains "Coordinate, Simplify, Empower" methodology, core principles, what Nanny-AI doesn't automate, success measures, and orchestration philosophy.
 -   **Resources Page (`resources.html`)**: Free downloads (AI Readiness Checklist, ROI Calculator, Implementation Mistakes Guide), educational content, and case studies.
 -   **Contact Page (`contact.html`)**: Contact form integrated with Replit Mail, displaying business location (Chicago, IL).
 -   **Industries Page (`industries.html`)**: Shows industry-specific applications.
+
+### Use Cases (Industry Best Practices)
+The Use Cases page features 9 comprehensive examples aligned with B2B AI platform standards:
+
+1. **Communication: Draft Client Follow-Up Email** - Full "Coordinate, Simplify, Empower" workflow demonstration with editable drafts and transparent sourcing
+2. **Meetings: Capture & Distribute Notes** - Automated note-taking with mandatory human review before distribution
+3. **Research: Competitive Analysis Brief** - AI synthesis with visible sources, assumptions, and limitations
+4. **Workflow: CRM Update Automation** - Step-by-step automation with approval gates and audit trails
+5. **Data Analysis: Sales Performance Report** - First-pass analysis with assumption transparency and verify-before-share workflow
+6. **Learning: Real-Time Skill Development** - Contextual coaching with progress tracking and voluntary engagement
+7. **Customer Support: Multi-Channel Query Coordination** - Cross-platform orchestration with 65% faster resolution and 28% higher satisfaction
+8. **Project Management: Cross-Team Timeline Coordination** - Automatic dependency detection with trade-off analysis and impact preview
+9. **Sales: Intelligent Proposal Assembly** - Personalized proposal generation saving 5.5hrs per proposal with 42% higher close rates
+
+Each use case includes:
+- Clear "Coordinate, Simplify, Empower" framework demonstration
+- Measurable business impact metrics (ROI, time savings, quality improvements)
+- Transparent control points showing where humans maintain decision authority
+- Plain language explanations avoiding technical jargon
+- Real-world business scenarios recognizable to non-technical users
 
 ### Styling and Visual Design
 -   **Color Scheme**: Light theme with primary blue accent (#3182ce) and various neutrals.
