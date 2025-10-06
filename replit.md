@@ -21,8 +21,9 @@ Nanny-AI is positioned as an **Intelligent Business Orchestrator** that humanize
 
 ### Frontend Architecture
 -   **Static Website**: Multi-page HTML with traditional navigation.
--   **Responsive Design**: Mobile-first using CSS Grid and Flexbox.
--   **Typography**: Inter font family (300-700 weights).
+-   **Responsive Design**: Comprehensive multi-device support with 5 breakpoints (1199px, 991px, 767px, 576px, 479px) using CSS Grid and Flexbox for optimal viewing on desktop, tablet, and mobile devices.
+-   **Accessibility**: Touch targets meet 44x44px minimum standard for mobile interactions; hamburger menu with smooth transitions and proper ARIA patterns.
+-   **Typography**: Inter font family (300-700 weights) with fluid scaling across all breakpoints for optimal readability on any screen size.
 -   **Visual Design**: Clean, modern light theme with blue accent (#3182ce).
 -   **Icons**: Font Awesome 6.4.0.
 
