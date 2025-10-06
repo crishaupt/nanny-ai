@@ -812,3 +812,29 @@ html {
     margin: 0;
     flex: 1;
 }
+
+/* Testimonial Styles */
+.testimonial-header {
+    margin-bottom: 1rem;
+}
+
+.testimonial-header h4 {
+    color: #1a202c;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+.rating {
+    display: flex;
+    gap: 0.25rem;
+    color: #f59e0b;
+    font-size: 0.875rem;
+}
+
+.testimonial-impact {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e2e8f0;
+    font-size: 0.95rem;
+    color: #3182ce;
+}
