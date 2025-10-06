@@ -1,0 +1,39 @@
+Nanny-AI would function as a human-centered copilot that proposes, previews, and explains assistance on routine work while leaving decisions, edits, and final actions to the person doing the job. It augments everyday tasks through suggestions, summaries, and draft automations with clear approvals, transparency, and rollback so humans remain firmly in control.
+Core principles
+•	Human in control through approvals, undo, and “appropriate friction” at key moments like send/share so accountability and intent stay with the person.
+•	Augment, don’t replace by shifting focus to judgment, creativity, and higher-value work while AI handles drafting and retrieval tasks.
+•	Transparent and explainable outputs that show sources, context, and model limitations to enable informed edits and acceptance.
+•	Responsible-by-design guardrails aligned to privacy, fairness, and harm-prevention commitments.
+Communication
+•	Draft emails or messages with selectable tone options and present an editable preview before any send action.
+•	Summarize long threads and propose concise responses with inline citations or references for quick verification.
+•	Rewrite and tailor documents to different audiences as suggestions that can be accepted piece-by-piece, never auto-applied.
+Meetings and scheduling
+•	Propose agendas from recent documents and chats, then suggest calendar slots for confirmation rather than booking automatically.
+•	Capture live notes, decisions, and action items, then offer a post-meeting review to confirm accuracy before distribution.
+•	Prepare follow-up drafts and task assignments that require one-tap approval to send or create.
+Research and knowledge
+•	Retrieve and synthesize information into short briefs with cited sources, offering multiple alternative summaries for selection.
+•	Generate comparative overviews that make trade-offs explicit and link back to evidence for deeper inspection.
+Task and workflow
+•	Detect repetitive steps and propose lightweight automations with human-in-the-loop prompts that request missing inputs and approvals (RFI).
+•	Suggest CRM or ticket updates extracted from emails and meetings that can be accepted, edited, or discarded in one place.
+•	Provide checklists and “next best step” guidance that adapt as progress is made across a project or pipeline.
+Data and analysis
+•	Produce a first-pass analysis or chart with visible assumptions, dataset references, and a prompt to verify before sharing.
+•	Recommend spreadsheet formulas or transformations with plain-language explanations and a preview of effects prior to apply.
+Learning and coaching
+•	Offer micro-coaching during tasks—prompting better inputs, clarifying goals, and modeling expert patterns to grow skills over time.
+•	Provide reflective feedback on clarity, quality, and time saved to build craftsmanship rather than shortcutting expertise.
+Guardrails and control
+•	Add approval gates for high-impact actions with pre-execution summaries and easy rollback paths.
+•	Keep a full prompt and output history with versioning so previous work can be restored or mixed and matched.
+•	Enforce privacy and safety policies with clear notices about data use, retention, and sensitive operations.
+What not to automate
+•	End-to-end execution in ambiguous or high-stakes contexts where errors are costly or outcomes affect well-being.
+•	Decisions that hinge on empathy, negotiation, or ethical trade-offs where human judgment is essential.
+Success measures
+•	Measurable time saved and quality gains on core workflows without loss of human agency.
+•	Higher confidence-in-control and fewer surprise outcomes as indicated by review rates and reversal clarity.
+•	Increased adoption of coaching and collaborative features over raw automation over time.
+
